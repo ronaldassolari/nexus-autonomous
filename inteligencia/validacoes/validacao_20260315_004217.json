@@ -1,0 +1,287 @@
+[
+  {
+    "keyword": "AI agent",
+    "plataforma_origem": "douyin",
+    "demanda": 2.7,
+    "tendencia": 7.8,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 10,
+    "rationale": {
+      "demanda": "Google Trends média: 26.7/100",
+      "tendencia": "Crescimento: 55%",
+      "viabilidade": "10 queries relacionadas encontradas"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 3.62,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "人工智能",
+    "plataforma_origem": "douyin",
+    "demanda": 1.2,
+    "tendencia": 2.3,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 11.9/100",
+      "tendencia": "Crescimento: -54%"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 0.88,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "赚钱",
+    "plataforma_origem": "douyin",
+    "demanda": 0.7,
+    "tendencia": 0.1,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 6.8/100",
+      "tendencia": "Crescimento: -99%"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 0.2,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "副业",
+    "plataforma_origem": "douyin",
+    "demanda": 0.1,
+    "tendencia": 0.0,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 1.1/100"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 0.02,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "SaaS",
+    "plataforma_origem": "douyin",
+    "demanda": 5.2,
+    "tendencia": 6.5,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 9.0,
+    "rationale": {
+      "demanda": "Google Trends média: 52.0/100",
+      "tendencia": "Crescimento: 30%",
+      "viabilidade": "8 queries relacionadas encontradas"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 3.82,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "电商",
+    "plataforma_origem": "douyin",
+    "demanda": 1.1,
+    "tendencia": 1.4,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 11.1/100",
+      "tendencia": "Crescimento: -73%"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 0.62,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "自动化",
+    "plataforma_origem": "douyin",
+    "demanda": 0.2,
+    "tendencia": 0.0,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 2.1/100"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 0.05,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "ChatGPT",
+    "plataforma_origem": "douyin",
+    "demanda": 6.7,
+    "tendencia": 5.9,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 7.0,
+    "rationale": {
+      "demanda": "Google Trends média: 67.1/100",
+      "tendencia": "Crescimento: 18%",
+      "viabilidade": "4 queries relacionadas encontradas"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 3.85,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "独立开发",
+    "plataforma_origem": "douyin",
+    "demanda": 0.0,
+    "tendencia": 0.0,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 0/100"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 0.0,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "出海",
+    "plataforma_origem": "douyin",
+    "demanda": 0.0,
+    "tendencia": 0.0,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 0/100"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 0.0,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "跨境电商",
+    "plataforma_origem": "douyin",
+    "demanda": 0.3,
+    "tendencia": 2.8,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 3.3/100",
+      "tendencia": "Crescimento: -44%"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 0.77,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "短视频",
+    "plataforma_origem": "douyin",
+    "demanda": 0.3,
+    "tendencia": 8.2,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 3.1/100",
+      "tendencia": "Crescimento: 63%"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 2.12,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "直播带货",
+    "plataforma_origem": "douyin",
+    "demanda": 0.0,
+    "tendencia": 0.0,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 0/100"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 0.0,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "数字人",
+    "plataforma_origem": "douyin",
+    "demanda": 0.1,
+    "tendencia": 0,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 1.1/100",
+      "tendencia": "Crescimento: -100%"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 0.02,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "AIGC",
+    "plataforma_origem": "douyin",
+    "demanda": 0.2,
+    "tendencia": 0.0,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 2.0/100"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 0.05,
+    "classificacao": "FRACO — descartar por agora"
+  },
+  {
+    "keyword": "大模型",
+    "plataforma_origem": "douyin",
+    "demanda": 0.5,
+    "tendencia": 3.4,
+    "concorrencia": 0.0,
+    "monetizacao": 0.0,
+    "viabilidade": 0.0,
+    "rationale": {
+      "demanda": "Google Trends média: 5.1/100",
+      "tendencia": "Crescimento: -32%"
+    },
+    "fontes": [
+      "google_trends"
+    ],
+    "score_total": 0.98,
+    "classificacao": "FRACO — descartar por agora"
+  }
+]

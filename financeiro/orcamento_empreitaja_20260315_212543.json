@@ -1,0 +1,15 @@
+{
+  "projeto": "Empreitaja",
+  "descricao": "Módulo do ObraSync para gestão de empreiteiras",
+  "valor_total": 1500,
+  "alocacao_squads": {
+    "Squad 2 — Fábrica de Software": 900,
+    "Squad 3 — Marketing & Vendas": 300,
+    "Squad 1 — Inteligência & Validação": 150,
+    "Squad 4 — Operações Financeiras": 75,
+    "Squad 5 — Automação & Aprendizado": 75
+  },
+  "timeline": "14 dias",
+  "status": "aprovado",
+  "data_aprovacao": "2026-03-15"
+}

@@ -1,0 +1,26 @@
+{
+  "documentos": {
+    "discord:canal_trade_2026_03.json": {
+      "doc_id": "6a8d6660a474",
+      "hash": "bf41cfd05e0c0b3a1ddb5b85366de33c",
+      "chunks": 1,
+      "palavras": 86,
+      "processado_em": "2026-03-14T23:01:42.291136"
+    },
+    "cursos:curso_fastapi_avancado.md": {
+      "doc_id": "45d15aebd005",
+      "hash": "bd6dbdea09b2c2c37c9023236df8e356",
+      "chunks": 1,
+      "palavras": 77,
+      "processado_em": "2026-03-14T23:01:42.291615"
+    },
+    "base_conhecimento:regras_gestao_risco.md": {
+      "doc_id": "76ee1094fe20",
+      "hash": "ab95936d319fc15fab06e0450e0aebbe",
+      "chunks": 1,
+      "palavras": 69,
+      "processado_em": "2026-03-14T23:01:42.292171"
+    }
+  },
+  "ultima_atualizacao": "2026-03-15T10:23:32.194935"
+}

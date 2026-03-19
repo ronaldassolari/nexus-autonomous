@@ -1,0 +1,13 @@
+{
+  "id": "76ee1094fe20",
+  "fonte": "base_conhecimento",
+  "titulo": "regras_gestao_risco.md",
+  "conteudo": "# Regras de Gestão de Risco - Ronald\n\n1. Nunca arriscar mais de 2% do capital total por operação\n2. Stop loss obrigatório em toda operação\n3. Relação risco/retorno mínima de 1:2\n4. Máximo de 3 operações abertas simultaneamente\n5. Se perder 5% do capital no dia, parar de operar\n6. Backtesting de 90 dias antes de operar com dinheiro real\n7. Diversificar entre mercados: ações, cripto, opções, futuros\n",
+  "metadata": {
+    "caminho_original": "/Users/ronaldsantosassolari/Desktop/AI/PROJETO_MASTER/nexus_autonomous/inteligencia/base_conhecimento/regras_gestao_risco.md",
+    "rel_path": "regras_gestao_risco.md",
+    "tamanho_bytes": 417,
+    "palavras": 69
+  },
+  "data_extracao": "2026-03-14T23:01:42.292040"
+}

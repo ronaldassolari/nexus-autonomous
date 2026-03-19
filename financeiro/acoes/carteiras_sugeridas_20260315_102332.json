@@ -1,0 +1,177 @@
+{
+  "conservador": {
+    "perfil_risco": "conservador",
+    "descricao_perfil": "Foco em dividendos e empresas solidas",
+    "num_ativos": 4,
+    "composicao": [
+      {
+        "ticker": "PETR4",
+        "nome": "Petrobras PN",
+        "setor": "Petroleo",
+        "peso_pct": 25.0,
+        "recomendacao": "COMPRA",
+        "score": 90.9
+      },
+      {
+        "ticker": "VALE3",
+        "nome": "Vale ON",
+        "setor": "Mineracao",
+        "peso_pct": 25.0,
+        "recomendacao": "COMPRA",
+        "score": 90.9
+      },
+      {
+        "ticker": "BBAS3",
+        "nome": "Banco do Brasil ON",
+        "setor": "Bancos",
+        "peso_pct": 25.0,
+        "recomendacao": "COMPRA",
+        "score": 90.9
+      },
+      {
+        "ticker": "ITUB4",
+        "nome": "Itau Unibanco PN",
+        "setor": "Bancos",
+        "peso_pct": 25.0,
+        "recomendacao": "COMPRA",
+        "score": 72.7
+      }
+    ],
+    "setores": [
+      "Petroleo",
+      "Mineracao",
+      "Bancos"
+    ],
+    "timestamp": "2026-03-15T10:23:32.171857",
+    "modo": "SUGESTAO",
+    "aviso": "SUGESTAO APENAS — nao executa compras automaticamente"
+  },
+  "moderado": {
+    "perfil_risco": "moderado",
+    "descricao_perfil": "Equilibrio entre crescimento e valor",
+    "num_ativos": 4,
+    "composicao": [
+      {
+        "ticker": "PETR4",
+        "nome": "Petrobras PN",
+        "setor": "Petroleo",
+        "peso_pct": 25.0,
+        "recomendacao": "COMPRA",
+        "score": 90.9
+      },
+      {
+        "ticker": "VALE3",
+        "nome": "Vale ON",
+        "setor": "Mineracao",
+        "peso_pct": 25.0,
+        "recomendacao": "COMPRA",
+        "score": 90.9
+      },
+      {
+        "ticker": "BBAS3",
+        "nome": "Banco do Brasil ON",
+        "setor": "Bancos",
+        "peso_pct": 25.0,
+        "recomendacao": "COMPRA",
+        "score": 90.9
+      },
+      {
+        "ticker": "ITUB4",
+        "nome": "Itau Unibanco PN",
+        "setor": "Bancos",
+        "peso_pct": 25.0,
+        "recomendacao": "COMPRA",
+        "score": 72.7
+      }
+    ],
+    "setores": [
+      "Petroleo",
+      "Mineracao",
+      "Bancos"
+    ],
+    "timestamp": "2026-03-15T10:23:32.172161",
+    "modo": "SUGESTAO",
+    "aviso": "SUGESTAO APENAS — nao executa compras automaticamente"
+  },
+  "agressivo": {
+    "perfil_risco": "agressivo",
+    "descricao_perfil": "Foco em crescimento e valorizacao",
+    "num_ativos": 8,
+    "composicao": [
+      {
+        "ticker": "PETR4",
+        "nome": "Petrobras PN",
+        "setor": "Petroleo",
+        "peso_pct": 18.2,
+        "recomendacao": "COMPRA",
+        "score": 90.9
+      },
+      {
+        "ticker": "VALE3",
+        "nome": "Vale ON",
+        "setor": "Mineracao",
+        "peso_pct": 18.2,
+        "recomendacao": "COMPRA",
+        "score": 90.9
+      },
+      {
+        "ticker": "BBAS3",
+        "nome": "Banco do Brasil ON",
+        "setor": "Bancos",
+        "peso_pct": 18.2,
+        "recomendacao": "COMPRA",
+        "score": 90.9
+      },
+      {
+        "ticker": "ITUB4",
+        "nome": "Itau Unibanco PN",
+        "setor": "Bancos",
+        "peso_pct": 14.5,
+        "recomendacao": "COMPRA",
+        "score": 72.7
+      },
+      {
+        "ticker": "WEGE3",
+        "nome": "WEG ON",
+        "setor": "Industria",
+        "peso_pct": 9.1,
+        "recomendacao": "MANTER",
+        "score": 45.5
+      },
+      {
+        "ticker": "AAPL",
+        "nome": "Apple Inc",
+        "setor": "Tecnologia",
+        "peso_pct": 7.3,
+        "recomendacao": "CAUTELA",
+        "score": 36.4
+      },
+      {
+        "ticker": "MSFT",
+        "nome": "Microsoft Corp",
+        "setor": "Tecnologia",
+        "peso_pct": 7.3,
+        "recomendacao": "CAUTELA",
+        "score": 36.4
+      },
+      {
+        "ticker": "GOOGL",
+        "nome": "Alphabet Inc",
+        "setor": "Tecnologia",
+        "peso_pct": 7.3,
+        "recomendacao": "CAUTELA",
+        "score": 36.4
+      }
+    ],
+    "setores": [
+      "Tecnologia",
+      "Industria",
+      "Petroleo",
+      "Bancos",
+      "Mineracao"
+    ],
+    "timestamp": "2026-03-15T10:23:32.172763",
+    "modo": "SUGESTAO",
+    "aviso": "SUGESTAO APENAS — nao executa compras automaticamente"
+  }
+}

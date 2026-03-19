@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1264cd82b1e4",
+    "texto": "O Nexus Autonomous é um ecossistema de agentes autônomos criado por Ronald Santos Assolari. O sistema é composto por 20 agentes organizados em 5 squads: Squad 1 Inteligência e Validação: Radar China busca tendências em Douyin WeChat Bilibili, Validador de Mercado valida demanda com Google Trends e SEMrush, CEO Agente decide e prioriza. Squad 2 Fábrica de Software: UX UI Designer cria wireframes, Arquiteto de Dados define schemas, Dev Rápido constrói MVPs em 24-48h, QA Segurança testa e verifica OWASP, DevOps configura CI CD. Squad 3 Marketing e Vendas: Copywriter, Gestor de Tráfego, Especialista Marketplace, Closer. Squad 4 Operações Financeiras: CFO, Especialista Cripto, Day Trade, Ações, Opções. O Squad 4 opera em modo sugestão até Ronald autorizar modo autônomo após 90 dias de backtesting. Squad 5 Automação e Aprendizado: Agente n8n para webhooks, Agente Estudante para base RAG.",
+    "fonte": "inicializacao",
+    "categoria": "nexus_sistema",
+    "metadata": {}
+  },
+  {
+    "id": "cca1132e0318",
+    "texto": "Produtos em desenvolvimento no ecossistema Nexus Autonomous: 1. Influencers IA: geração de ebooks com inteligência artificial, monetização via Hotmart e Kiwify. 2. Agente Viral TikTok: automação de conteúdo viral para TikTok com IA. 3. ZapIA: SaaS B2B para automação de WhatsApp com chatbots inteligentes. 4. Buscador de Preços WhatsApp: comparação de preços via chatbot no WhatsApp. 5. Empreitaja: marketplace de construção civil conectando empreiteiros e clientes. Todos os produtos seguem o pipeline: Radar China detecta tendência, Validador confirma demanda, CEO Agente aprova, Squad 2 constrói MVP, Squad 3 lança e vende.",
+    "fonte": "inicializacao",
+    "categoria": "nexus_produtos",
+    "metadata": {}
+  },
+  {
+    "id": "2f95cda749d5",
+    "texto": "Conceitos fundamentais de trade que o Ronald estuda: Análise técnica: suporte, resistência, médias móveis, RSI, MACD, volume. Operações em mini-índice e mini-dólar no mercado brasileiro B3. Day trade: operações intraday com stop loss e take profit definidos. Swing trade: operações de dias a semanas baseadas em tendências. Criptomoedas: análise de mercado crypto, DeFi, exchanges centralizadas. Opções: travas de alta e baixa, venda coberta, butterfly, condor. Gestão de risco: nunca arriscar mais de 2 porcento do capital por operação. Position sizing: calcular tamanho da posição baseado no risco por trade.",
+    "fonte": "inicializacao",
+    "categoria": "trade",
+    "metadata": {}
+  },
+  {
+    "id": "a959a8283673",
+    "texto": "Estratégias de marketing digital do ecossistema: Funil de vendas: topo (awareness), meio (consideração), fundo (conversão). Tráfego pago: Facebook Ads, Google Ads, TikTok Ads com otimização de ROI. Copywriting: headlines magnéticas, storytelling, prova social, urgência, CTA claro. Landing pages: above the fold com proposta de valor, benefícios, depoimentos, CTA. Marketplaces: Hotmart para infoprodutos, Kiwify como alternativa, App Store para apps. WhatsApp marketing: listas de transmissão, chatbots, funil de vendas via WhatsApp. SEO: keywords long tail, conteúdo de valor, backlinks, Google Trends para validação.",
+    "fonte": "inicializacao",
+    "categoria": "marketing",
+    "metadata": {}
+  },
+  {
+    "id": "88bebdbc9f3c",
+    "texto": "Stack tecnológica do Nexus Autonomous: Backend: Python 3.11+, FastAPI para APIs REST, Django para aplicações full-stack. Frontend: React, Next.js, Tailwind CSS, Shadcn UI. Banco de dados: PostgreSQL para dados relacionais, MongoDB para documentos. Infraestrutura: Docker, Docker Compose, GitHub Actions para CI CD. AI e LLMs: Claude API da Anthropic, OpenAI API, modelos locais via Ollama. Automação: n8n para webhooks e integração entre sistemas. Deploy: Railway, Vercel, AWS para produção. Monitoramento: health checks automáticos, logs estruturados, alertas.",
+    "fonte": "inicializacao",
+    "categoria": "tecnologia",
+    "metadata": {}
+  },
+  {
+    "id": "0d803090125b",
+    "texto": "# Curso FastAPI Avançado - Resumo ## Módulo 1: Arquitetura FastAPI é um framework web moderno para Python que usa tipagem e async/await. Ideal para construir APIs REST de alta performance. ## Módulo 2: Autenticação JWT (JSON Web Tokens) é o padrão para autenticação stateless. Usar bcrypt para hash de senhas, nunca armazenar em texto plano. ## Módulo 3: Deploy Docker é essencial para deploy consistente. GitHub Actions para CI/CD automático. Health checks em /health para monitoramento.",
+    "fonte": "curso_fastapi_avancado.md",
+    "categoria": "cursos",
+    "metadata": {}
+  },
+  {
+    "id": "b4ae6d8b377f",
+    "texto": "# Regras de Gestão de Risco - Ronald 1. Nunca arriscar mais de 2% do capital total por operação 2. Stop loss obrigatório em toda operação 3. Relação risco/retorno mínima de 1:2 4. Máximo de 3 operações abertas simultaneamente 5. Se perder 5% do capital no dia, parar de operar 6. Backtesting de 90 dias antes de operar com dinheiro real 7. Diversificar entre mercados: ações, cripto, opções, futuros",
+    "fonte": "regras_gestao_risco.md",
+    "categoria": "base_conhecimento",
+    "metadata": {}
+  },
+  {
+    "id": "0fc6cfb8087d",
+    "texto": "[2026-03-14] trader_pro: Mini-índice rompeu resistência em 128.500, alvo em 129.000. Stop em 128.200. [2026-03-14] cripto_master: Bitcoin formando bandeira de alta no gráfico diário. Entrada em 95k com alvo em 105k. [2026-03-13] Ronald: Técnica do 9.1 de Larry Williams no mini-dólar está funcionando muito bem. 3 trades positivos essa semana. [2026-03-13] trader_pro: Setup de reversão na média de 20 períodos. Quando preço toca MA20 e forma martelo, entrada confirmada. [2026-03-12] Ronald: Opções: venda coberta de PETR4 com strike OTM 5%. Prêmio de 2.3% ao mês. Risco controlado.",
+    "fonte": "canal_trade_2026_03.json",
+    "categoria": "discord",
+    "metadata": {}
+  }
+]

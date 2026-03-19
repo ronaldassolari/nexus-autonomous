@@ -1,0 +1,16 @@
+{
+  "nome": "Empreitaja",
+  "descricao": "Módulo do ObraSync para gestão especializada de empreiteiras com controle de subcontratadas, relatórios fiscais e integração contábil",
+  "keyword_origem": "gestão empreiteiras",
+  "problema": "Empreiteiras necessitam de sistema especializado para gestão de múltiplas obras, controle de subcontratadas, relatórios fiscais/tributários e integração com sistemas contábeis",
+  "solucao": "Plataforma SaaS integrada ao ObraSync com foco específico em necessidades de empreiteiras",
+  "publico_alvo": "Empreiteiras de pequeno e médio porte do setor da construção civil",
+  "tamanho_mercado": "R$ 50M+ (Brasil, construção civil)",
+  "monetizacao": "SaaS: R$ 500-2.000/mês por empreiteira",
+  "viabilidade_tecnica": "Alta (extensão do ObraSync existente)",
+  "diferencial": "Integração nativa com ObraSync + IA multimodal + compliance setorial",
+  "prioridade": "alta",
+  "orcamento": 1500,
+  "timeline": "14 dias para MVP",
+  "squad_responsavel": "Squad 2 (Fábrica de Software) com suporte dos outros squads"
+}

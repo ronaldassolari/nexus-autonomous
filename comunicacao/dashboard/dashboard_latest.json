@@ -1,0 +1,206 @@
+{
+  "timestamp": "2026-03-16T12:09:12.076795",
+  "fase": "Fase 1 — Infraestrutura Base",
+  "squads": {
+    "squad1": {
+      "nome": "Inteligência & Validação",
+      "agentes": [
+        {
+          "id": "radar_china",
+          "nome": "Radar China",
+          "papel": "Busca hypes plataformas CN",
+          "status": "concluido",
+          "mensagens_pendentes": 4,
+          "inicializado": true
+        },
+        {
+          "id": "validador_mercado",
+          "nome": "Validador Mercado",
+          "papel": "Valida demanda Google Trends/SEMrush",
+          "status": "concluido",
+          "mensagens_pendentes": 8,
+          "inicializado": true
+        },
+        {
+          "id": "ceo_agente",
+          "nome": "CEO Agente",
+          "papel": "Decisor central, prioriza e aciona squads",
+          "status": "concluido",
+          "mensagens_pendentes": 12,
+          "inicializado": true
+        }
+      ]
+    },
+    "squad2": {
+      "nome": "Fábrica de Software",
+      "agentes": [
+        {
+          "id": "ux_ui_designer",
+          "nome": "UX/UI Designer",
+          "papel": "Wireframes e design system",
+          "status": "concluido",
+          "mensagens_pendentes": 0,
+          "inicializado": true
+        },
+        {
+          "id": "arquiteto_dados",
+          "nome": "Arquiteto Dados",
+          "papel": "Schemas e migrations",
+          "status": "concluido",
+          "mensagens_pendentes": 1,
+          "inicializado": true
+        },
+        {
+          "id": "dev_rapido",
+          "nome": "Dev Rápido",
+          "papel": "MVP scaffolding 24-48h",
+          "status": "concluido",
+          "mensagens_pendentes": 0,
+          "inicializado": true
+        },
+        {
+          "id": "qa_seguranca",
+          "nome": "QA Segurança",
+          "papel": "Testes e scan OWASP",
+          "status": "concluido",
+          "mensagens_pendentes": 0,
+          "inicializado": true
+        },
+        {
+          "id": "devops",
+          "nome": "DevOps",
+          "papel": "CI/CD e monitoramento",
+          "status": "concluido",
+          "mensagens_pendentes": 0,
+          "inicializado": true
+        }
+      ]
+    },
+    "squad3": {
+      "nome": "Marketing & Vendas",
+      "agentes": [
+        {
+          "id": "copywriter",
+          "nome": "Copywriter",
+          "papel": "Textos e landing pages",
+          "status": "concluido",
+          "mensagens_pendentes": 2,
+          "inicializado": true
+        },
+        {
+          "id": "gestor_trafego",
+          "nome": "Gestor Tráfego",
+          "papel": "Facebook/Google/TikTok Ads",
+          "status": "concluido",
+          "mensagens_pendentes": 4,
+          "inicializado": true
+        },
+        {
+          "id": "especialista_marketplace",
+          "nome": "Esp. Marketplace",
+          "papel": "Hotmart/Kiwify/App Store",
+          "status": "concluido",
+          "mensagens_pendentes": 4,
+          "inicializado": true
+        },
+        {
+          "id": "closer",
+          "nome": "Closer",
+          "papel": "Fecha deals WhatsApp",
+          "status": "concluido",
+          "mensagens_pendentes": 4,
+          "inicializado": true
+        }
+      ]
+    },
+    "squad4": {
+      "nome": "Operações Financeiras [SUGESTÃO]",
+      "agentes": [
+        {
+          "id": "cfo",
+          "nome": "CFO",
+          "papel": "Gerencia caixa e capital",
+          "status": "concluido",
+          "mensagens_pendentes": 10,
+          "inicializado": true
+        },
+        {
+          "id": "especialista_cripto",
+          "nome": "Esp. Cripto",
+          "papel": "Exchanges e Discord",
+          "status": "concluido",
+          "mensagens_pendentes": 2,
+          "inicializado": true
+        },
+        {
+          "id": "especialista_daytrade",
+          "nome": "Esp. Day Trade",
+          "papel": "Mini-índice/dólar/forex",
+          "status": "não inicializado",
+          "mensagens_pendentes": 0,
+          "inicializado": false
+        },
+        {
+          "id": "especialista_acoes",
+          "nome": "Esp. Ações",
+          "papel": "B3/NYSE, dividendos",
+          "status": "concluido",
+          "mensagens_pendentes": 2,
+          "inicializado": true
+        },
+        {
+          "id": "especialista_opcoes",
+          "nome": "Esp. Opções",
+          "papel": "Travas, venda coberta",
+          "status": "concluido",
+          "mensagens_pendentes": 2,
+          "inicializado": true
+        }
+      ]
+    },
+    "squad5": {
+      "nome": "Automação & Aprendizado",
+      "agentes": [
+        {
+          "id": "agente_n8n",
+          "nome": "Agente n8n",
+          "papel": "Webhooks entre sistemas",
+          "status": "concluido",
+          "mensagens_pendentes": 3,
+          "inicializado": true
+        },
+        {
+          "id": "agente_estudante",
+          "nome": "Agente Estudante",
+          "papel": "Alimenta base RAG",
+          "status": "concluido",
+          "mensagens_pendentes": 3,
+          "inicializado": true
+        }
+      ]
+    }
+  },
+  "projetos": {
+    "total": 0,
+    "designs": 0,
+    "schemas": 0,
+    "mvps": 0,
+    "qa_reports": 0,
+    "infra": 0
+  },
+  "log_recente": [
+    "[2026-03-15 10:23] AGENTE ESTUDANTE: Processando fonte: chrome → Bookmarks e páginas salvas do Chrome",
+    "[2026-03-15 10:23] AGENTE ESTUDANTE: Fonte chrome: nenhum arquivo novo",
+    "[2026-03-15 10:23] AGENTE ESTUDANTE: Processando fonte: base_conhecimento → Base de conhecimento geral do ecossistema",
+    "[2026-03-15 10:23] AGENTE ESTUDANTE: Fonte base_conhecimento: nenhum arquivo novo",
+    "[2026-03-15 10:23] AGENTE ESTUDANTE: Nenhum chunk novo → Índice não atualizado",
+    "[2026-03-15 10:23] AGENTE ESTUDANTE: Resultado publicado: Processamento Agente Estudante",
+    "[2026-03-15 10:23] AGENTE ESTUDANTE: Status atualizado para: concluido",
+    "[2026-03-15 10:23] AGENTE ESTUDANTE: Agente Estudante finalizado → 0 docs processados, 0 chunks gerados"
+  ],
+  "resumo": {
+    "total_agentes": 19,
+    "agentes_ativos": 18,
+    "agentes_pendentes": 1
+  }
+}

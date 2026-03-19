@@ -1,0 +1,50 @@
+{
+  "radar_to_validador": {
+    "trigger": "tendencia_detectada",
+    "destino": "validador_mercado",
+    "payload_template": {
+      "acao": "validar_tendencia",
+      "origem": "radar_china",
+      "prioridade": "alta"
+    },
+    "descricao": "Radar China detecta tendência → Validador analisa",
+    "criado_em": "2026-03-15T00:36:30.623686",
+    "disparos": 0
+  },
+  "ceo_to_squad2": {
+    "trigger": "projeto_aprovado",
+    "destino": "arquiteto_dados",
+    "payload_template": {
+      "acao": "iniciar_projeto",
+      "origem": "ceo_agente",
+      "prioridade": "alta"
+    },
+    "descricao": "CEO aprova projeto → Squad 2 inicia desenvolvimento",
+    "criado_em": "2026-03-15T00:36:30.623692",
+    "disparos": 0
+  },
+  "qa_to_devops": {
+    "trigger": "qa_aprovado",
+    "destino": "devops",
+    "payload_template": {
+      "acao": "iniciar_deploy",
+      "origem": "qa_seguranca",
+      "prioridade": "media"
+    },
+    "descricao": "QA aprovado → DevOps inicia CI/CD",
+    "criado_em": "2026-03-15T00:36:30.623694",
+    "disparos": 0
+  },
+  "deploy_to_marketing": {
+    "trigger": "deploy_concluido",
+    "destino": "copywriter",
+    "payload_template": {
+      "acao": "preparar_lancamento",
+      "origem": "devops",
+      "prioridade": "media"
+    },
+    "descricao": "Deploy concluído → Squad 3 prepara marketing",
+    "criado_em": "2026-03-15T00:36:30.623695",
+    "disparos": 0
+  }
+}

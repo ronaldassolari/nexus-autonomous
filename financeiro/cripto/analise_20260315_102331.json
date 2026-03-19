@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-03-15T10:23:31.323159",
+  "modo": "SUGESTAO",
+  "ativos": {
+    "BTC": {
+      "nome": "Bitcoin",
+      "preco_usd": 71361,
+      "preco_brl": 380418,
+      "variacao_24h": 0.6330058170366635,
+      "rsi_14": 64.12,
+      "sinal_rsi": "neutro",
+      "ma7_ultimo": 70379.26,
+      "ma30_ultimo": 68310.09,
+      "sinal_medias": "tendencia de alta — preco acima das medias"
+    },
+    "ETH": {
+      "nome": "Ethereum",
+      "preco_usd": 2092.76,
+      "preco_brl": 11156.29,
+      "variacao_24h": 0.6612371413407911,
+      "rsi_14": 62.25,
+      "sinal_rsi": "neutro",
+      "ma7_ultimo": 2062.6,
+      "ma30_ultimo": 2000.02,
+      "sinal_medias": "tendencia de alta — preco acima das medias"
+    },
+    "SOL": {
+      "nome": "Solana",
+      "preco_usd": 87.77,
+      "preco_brl": 467.89,
+      "variacao_24h": 0.697181101554835,
+      "rsi_14": 58.85,
+      "sinal_rsi": "neutro",
+      "ma7_ultimo": 86.89,
+      "ma30_ultimo": 85.12,
+      "sinal_medias": "tendencia de alta — preco acima das medias"
+    }
+  }
+}

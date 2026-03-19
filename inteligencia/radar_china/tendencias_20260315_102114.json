@@ -1,0 +1,674 @@
+[
+  {
+    "keyword": "AI agent",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966588",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+AI+agent"
+    }
+  },
+  {
+    "keyword": "人工智能",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966623",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD"
+    }
+  },
+  {
+    "keyword": "赚钱",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966647",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+%E8%B5%9A%E9%92%B1"
+    }
+  },
+  {
+    "keyword": "副业",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966654",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+%E5%89%AF%E4%B8%9A"
+    }
+  },
+  {
+    "keyword": "SaaS",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966658",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+SaaS"
+    }
+  },
+  {
+    "keyword": "电商",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966660",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+%E7%94%B5%E5%95%86"
+    }
+  },
+  {
+    "keyword": "自动化",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966664",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+%E8%87%AA%E5%8A%A8%E5%8C%96"
+    }
+  },
+  {
+    "keyword": "ChatGPT",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966668",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+ChatGPT"
+    }
+  },
+  {
+    "keyword": "独立开发",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966671",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91"
+    }
+  },
+  {
+    "keyword": "出海",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966675",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+%E5%87%BA%E6%B5%B7"
+    }
+  },
+  {
+    "keyword": "跨境电商",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966679",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86"
+    }
+  },
+  {
+    "keyword": "短视频",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966682",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+%E7%9F%AD%E8%A7%86%E9%A2%91"
+    }
+  },
+  {
+    "keyword": "直播带货",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966685",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+%E7%9B%B4%E6%92%AD%E5%B8%A6%E8%B4%A7"
+    }
+  },
+  {
+    "keyword": "数字人",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966687",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+%E6%95%B0%E5%AD%97%E4%BA%BA"
+    }
+  },
+  {
+    "keyword": "AIGC",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966690",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+AIGC"
+    }
+  },
+  {
+    "keyword": "大模型",
+    "plataforma": "douyin",
+    "timestamp": "2026-03-15T10:21:14.966692",
+    "fonte": "Douyin (TikTok CN)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:douyin.com+%E5%A4%A7%E6%A8%A1%E5%9E%8B"
+    }
+  },
+  {
+    "keyword": "AI agent",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966815",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+AI+agent",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=AI+agent"
+    }
+  },
+  {
+    "keyword": "人工智能",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966820",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD"
+    }
+  },
+  {
+    "keyword": "赚钱",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966823",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+%E8%B5%9A%E9%92%B1",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=%E8%B5%9A%E9%92%B1"
+    }
+  },
+  {
+    "keyword": "副业",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966825",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+%E5%89%AF%E4%B8%9A",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=%E5%89%AF%E4%B8%9A"
+    }
+  },
+  {
+    "keyword": "SaaS",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966826",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+SaaS",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=SaaS"
+    }
+  },
+  {
+    "keyword": "电商",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966828",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+%E7%94%B5%E5%95%86",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=%E7%94%B5%E5%95%86"
+    }
+  },
+  {
+    "keyword": "自动化",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966830",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+%E8%87%AA%E5%8A%A8%E5%8C%96",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=%E8%87%AA%E5%8A%A8%E5%8C%96"
+    }
+  },
+  {
+    "keyword": "ChatGPT",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966832",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+ChatGPT",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=ChatGPT"
+    }
+  },
+  {
+    "keyword": "独立开发",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966834",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91"
+    }
+  },
+  {
+    "keyword": "出海",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966835",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+%E5%87%BA%E6%B5%B7",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=%E5%87%BA%E6%B5%B7"
+    }
+  },
+  {
+    "keyword": "跨境电商",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966837",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86"
+    }
+  },
+  {
+    "keyword": "短视频",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966839",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+%E7%9F%AD%E8%A7%86%E9%A2%91",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=%E7%9F%AD%E8%A7%86%E9%A2%91"
+    }
+  },
+  {
+    "keyword": "直播带货",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966841",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+%E7%9B%B4%E6%92%AD%E5%B8%A6%E8%B4%A7",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=%E7%9B%B4%E6%92%AD%E5%B8%A6%E8%B4%A7"
+    }
+  },
+  {
+    "keyword": "数字人",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966843",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+%E6%95%B0%E5%AD%97%E4%BA%BA",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=%E6%95%B0%E5%AD%97%E4%BA%BA"
+    }
+  },
+  {
+    "keyword": "AIGC",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966844",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+AIGC",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=AIGC"
+    }
+  },
+  {
+    "keyword": "大模型",
+    "plataforma": "bilibili",
+    "timestamp": "2026-03-15T10:21:14.966846",
+    "fonte": "Bilibili",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:bilibili.com+%E5%A4%A7%E6%A8%A1%E5%9E%8B",
+      "bilibili_search": "https://search.bilibili.com/all?keyword=%E5%A4%A7%E6%A8%A1%E5%9E%8B"
+    }
+  },
+  {
+    "keyword": "AI agent",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966945",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+AI+agent"
+    }
+  },
+  {
+    "keyword": "人工智能",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966948",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD"
+    }
+  },
+  {
+    "keyword": "赚钱",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966950",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+%E8%B5%9A%E9%92%B1"
+    }
+  },
+  {
+    "keyword": "副业",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966952",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+%E5%89%AF%E4%B8%9A"
+    }
+  },
+  {
+    "keyword": "SaaS",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966954",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+SaaS"
+    }
+  },
+  {
+    "keyword": "电商",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966955",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+%E7%94%B5%E5%95%86"
+    }
+  },
+  {
+    "keyword": "自动化",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966957",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+%E8%87%AA%E5%8A%A8%E5%8C%96"
+    }
+  },
+  {
+    "keyword": "ChatGPT",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966959",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+ChatGPT"
+    }
+  },
+  {
+    "keyword": "独立开发",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966960",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91"
+    }
+  },
+  {
+    "keyword": "出海",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966962",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+%E5%87%BA%E6%B5%B7"
+    }
+  },
+  {
+    "keyword": "跨境电商",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966965",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86"
+    }
+  },
+  {
+    "keyword": "短视频",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966967",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+%E7%9F%AD%E8%A7%86%E9%A2%91"
+    }
+  },
+  {
+    "keyword": "直播带货",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966969",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+%E7%9B%B4%E6%92%AD%E5%B8%A6%E8%B4%A7"
+    }
+  },
+  {
+    "keyword": "数字人",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966971",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+%E6%95%B0%E5%AD%97%E4%BA%BA"
+    }
+  },
+  {
+    "keyword": "AIGC",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966972",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+AIGC"
+    }
+  },
+  {
+    "keyword": "大模型",
+    "plataforma": "wechat",
+    "timestamp": "2026-03-15T10:21:14.966974",
+    "fonte": "WeChat / Weixin",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:wechat.com+%E5%A4%A7%E6%A8%A1%E5%9E%8B"
+    }
+  },
+  {
+    "keyword": "AI agent",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967077",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+AI+agent",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+AI+agent"
+    }
+  },
+  {
+    "keyword": "人工智能",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967080",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD"
+    }
+  },
+  {
+    "keyword": "赚钱",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967083",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+%E8%B5%9A%E9%92%B1",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+%E8%B5%9A%E9%92%B1"
+    }
+  },
+  {
+    "keyword": "副业",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967084",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+%E5%89%AF%E4%B8%9A",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+%E5%89%AF%E4%B8%9A"
+    }
+  },
+  {
+    "keyword": "SaaS",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967086",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+SaaS",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+SaaS"
+    }
+  },
+  {
+    "keyword": "电商",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967088",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+%E7%94%B5%E5%95%86",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+%E7%94%B5%E5%95%86"
+    }
+  },
+  {
+    "keyword": "自动化",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967089",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+%E8%87%AA%E5%8A%A8%E5%8C%96",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+%E8%87%AA%E5%8A%A8%E5%8C%96"
+    }
+  },
+  {
+    "keyword": "ChatGPT",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967091",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+ChatGPT",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+ChatGPT"
+    }
+  },
+  {
+    "keyword": "独立开发",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967093",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+%E7%8B%AC%E7%AB%8B%E5%BC%80%E5%8F%91"
+    }
+  },
+  {
+    "keyword": "出海",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967095",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+%E5%87%BA%E6%B5%B7",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+%E5%87%BA%E6%B5%B7"
+    }
+  },
+  {
+    "keyword": "跨境电商",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967096",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+%E8%B7%A8%E5%A2%83%E7%94%B5%E5%95%86"
+    }
+  },
+  {
+    "keyword": "短视频",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967098",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+%E7%9F%AD%E8%A7%86%E9%A2%91",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+%E7%9F%AD%E8%A7%86%E9%A2%91"
+    }
+  },
+  {
+    "keyword": "直播带货",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967100",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+%E7%9B%B4%E6%92%AD%E5%B8%A6%E8%B4%A7",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+%E7%9B%B4%E6%92%AD%E5%B8%A6%E8%B4%A7"
+    }
+  },
+  {
+    "keyword": "数字人",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967102",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+%E6%95%B0%E5%AD%97%E4%BA%BA",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+%E6%95%B0%E5%AD%97%E4%BA%BA"
+    }
+  },
+  {
+    "keyword": "AIGC",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967103",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+AIGC",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+AIGC"
+    }
+  },
+  {
+    "keyword": "大模型",
+    "plataforma": "xiaohongshu",
+    "timestamp": "2026-03-15T10:21:14.967105",
+    "fonte": "Xiaohongshu (RED)",
+    "status": "pendente_coleta",
+    "urls_busca": {
+      "google_site_search": "https://www.google.com/search?q=site:xiaohongshu.com+%E5%A4%A7%E6%A8%A1%E5%9E%8B",
+      "google_red": "https://www.google.com/search?q=site:xiaohongshu.com+%E5%A4%A7%E6%A8%A1%E5%9E%8B"
+    }
+  }
+]

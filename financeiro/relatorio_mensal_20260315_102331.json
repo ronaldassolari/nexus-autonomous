@@ -1,0 +1,21 @@
+{
+  "periodo": "mensal",
+  "data_inicio": "2026-03-01T00:00:00",
+  "data_fim": "2026-03-15T10:23:31.093619",
+  "resumo": {
+    "total_receitas": 500.0,
+    "total_despesas": 200.0,
+    "resultado_liquido": 300.0,
+    "saldo_atual": 300.0
+  },
+  "receitas_por_categoria": {
+    "assinaturas_saas": 500.0
+  },
+  "despesas_por_categoria": {
+    "apis_pagas": 120.0,
+    "infraestrutura_cloud": 80.0
+  },
+  "num_transacoes": 3,
+  "modo": "SUGESTAO",
+  "aviso": "Relatorio gerado em modo SUGESTAO — dados simulados"
+}

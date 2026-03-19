@@ -1,7 +1,10 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
-.env
+.env*
+*.env.local
+.env.production
+.env.development
 .data/
 node_modules/
 .next/
@@ -10,3 +13,25 @@ node_modules/
 *.db-shm
 .DS_Store
 dashboard_master/
+# Temporary files
+*.log
+*.tmp
+*.temp
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+# OpenClaw sensitive data
+.openclaw/workspace-state.json
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mp3
+*.wav
+# Backup files
+*~
+*.bak
+# Submodule/project directories
+projetos_ativos/

@@ -1,0 +1,21 @@
+{
+  "total_chunks": 8,
+  "total_tokens": 506,
+  "categorias": {
+    "nexus_sistema": 1,
+    "nexus_produtos": 1,
+    "trade": 1,
+    "marketing": 1,
+    "tecnologia": 1,
+    "cursos": 1,
+    "base_conhecimento": 1,
+    "discord": 1
+  },
+  "fontes": {
+    "inicializacao": 5,
+    "curso_fastapi_avancado.md": 1,
+    "regras_gestao_risco.md": 1,
+    "canal_trade_2026_03.json": 1
+  },
+  "ultima_atualizacao": "2026-03-14T23:01:42.300935"
+}

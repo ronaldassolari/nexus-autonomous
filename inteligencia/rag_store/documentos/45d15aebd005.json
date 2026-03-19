@@ -1,0 +1,13 @@
+{
+  "id": "45d15aebd005",
+  "fonte": "cursos",
+  "titulo": "curso_fastapi_avancado.md",
+  "conteudo": "# Curso FastAPI Avançado - Resumo\n\n## Módulo 1: Arquitetura\nFastAPI é um framework web moderno para Python que usa tipagem e async/await.\nIdeal para construir APIs REST de alta performance.\n\n## Módulo 2: Autenticação\nJWT (JSON Web Tokens) é o padrão para autenticação stateless.\nUsar bcrypt para hash de senhas, nunca armazenar em texto plano.\n\n## Módulo 3: Deploy\nDocker é essencial para deploy consistente.\nGitHub Actions para CI/CD automático.\nHealth checks em /health para monitoramento.\n",
+  "metadata": {
+    "caminho_original": "/Users/ronaldsantosassolari/Desktop/AI/PROJETO_MASTER/nexus_autonomous/inteligencia/cursos_resumos/curso_fastapi_avancado.md",
+    "rel_path": "curso_fastapi_avancado.md",
+    "tamanho_bytes": 505,
+    "palavras": 77
+  },
+  "data_extracao": "2026-03-14T23:01:42.291475"
+}

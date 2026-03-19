@@ -1,0 +1,206 @@
+{
+  "PETR4": {
+    "ticker": "PETR4",
+    "nome": "Petrobras PN",
+    "setor": "Petroleo",
+    "mercado": "B3",
+    "preco_atual": 38.5,
+    "indicadores": {
+      "pl": 5.2,
+      "dividend_yield": 12.3,
+      "roe": 28.5,
+      "pvp": 1.1
+    },
+    "score": 10,
+    "score_max": 11,
+    "score_pct": 90.9,
+    "recomendacao": "COMPRA",
+    "notas": [
+      "P/L atrativo (5.2)",
+      "Dividend yield excelente (12.3%)",
+      "ROE excelente (28.5%) — alta rentabilidade",
+      "P/VP razoavel (1.1)"
+    ],
+    "timestamp": "2026-03-15T10:23:32.168610",
+    "modo": "SUGESTAO",
+    "aviso": "SUGESTAO APENAS — nao executa trades automaticamente"
+  },
+  "VALE3": {
+    "ticker": "VALE3",
+    "nome": "Vale ON",
+    "setor": "Mineracao",
+    "mercado": "B3",
+    "preco_atual": 62.0,
+    "indicadores": {
+      "pl": 6.8,
+      "dividend_yield": 8.5,
+      "roe": 22.0,
+      "pvp": 1.5
+    },
+    "score": 10,
+    "score_max": 11,
+    "score_pct": 90.9,
+    "recomendacao": "COMPRA",
+    "notas": [
+      "P/L atrativo (6.8)",
+      "Dividend yield excelente (8.5%)",
+      "ROE excelente (22.0%) — alta rentabilidade",
+      "P/VP razoavel (1.5)"
+    ],
+    "timestamp": "2026-03-15T10:23:32.168760",
+    "modo": "SUGESTAO",
+    "aviso": "SUGESTAO APENAS — nao executa trades automaticamente"
+  },
+  "ITUB4": {
+    "ticker": "ITUB4",
+    "nome": "Itau Unibanco PN",
+    "setor": "Bancos",
+    "mercado": "B3",
+    "preco_atual": 32.0,
+    "indicadores": {
+      "pl": 8.5,
+      "dividend_yield": 5.2,
+      "roe": 19.5,
+      "pvp": 1.8
+    },
+    "score": 8,
+    "score_max": 11,
+    "score_pct": 72.7,
+    "recomendacao": "COMPRA",
+    "notas": [
+      "P/L atrativo (8.5)",
+      "Dividend yield bom (5.2%)",
+      "ROE bom (19.5%)",
+      "P/VP razoavel (1.8)"
+    ],
+    "timestamp": "2026-03-15T10:23:32.168864",
+    "modo": "SUGESTAO",
+    "aviso": "SUGESTAO APENAS — nao executa trades automaticamente"
+  },
+  "WEGE3": {
+    "ticker": "WEGE3",
+    "nome": "WEG ON",
+    "setor": "Industria",
+    "mercado": "B3",
+    "preco_atual": 45.0,
+    "indicadores": {
+      "pl": 35.0,
+      "dividend_yield": 1.2,
+      "roe": 30.0,
+      "pvp": 10.5
+    },
+    "score": 5,
+    "score_max": 11,
+    "score_pct": 45.5,
+    "recomendacao": "MANTER",
+    "notas": [
+      "P/L elevado (35.0) — precificado para crescimento",
+      "Dividend yield baixo (1.2%)",
+      "ROE excelente (30.0%) — alta rentabilidade"
+    ],
+    "timestamp": "2026-03-15T10:23:32.168997",
+    "modo": "SUGESTAO",
+    "aviso": "SUGESTAO APENAS — nao executa trades automaticamente"
+  },
+  "BBAS3": {
+    "ticker": "BBAS3",
+    "nome": "Banco do Brasil ON",
+    "setor": "Bancos",
+    "mercado": "B3",
+    "preco_atual": 28.0,
+    "indicadores": {
+      "pl": 4.8,
+      "dividend_yield": 9.0,
+      "roe": 18.0,
+      "pvp": 0.9
+    },
+    "score": 10,
+    "score_max": 11,
+    "score_pct": 90.9,
+    "recomendacao": "COMPRA",
+    "notas": [
+      "P/L atrativo (4.8)",
+      "Dividend yield excelente (9.0%)",
+      "ROE bom (18.0%)",
+      "P/VP abaixo de 1 (0.9) — possivel desconto"
+    ],
+    "timestamp": "2026-03-15T10:23:32.169158",
+    "modo": "SUGESTAO",
+    "aviso": "SUGESTAO APENAS — nao executa trades automaticamente"
+  },
+  "AAPL": {
+    "ticker": "AAPL",
+    "nome": "Apple Inc",
+    "setor": "Tecnologia",
+    "mercado": "NYSE",
+    "preco_atual": 185.0,
+    "indicadores": {
+      "pl": 30.0,
+      "dividend_yield": 0.5,
+      "roe": 160.0,
+      "pvp": 45.0
+    },
+    "score": 4,
+    "score_max": 11,
+    "score_pct": 36.4,
+    "recomendacao": "CAUTELA",
+    "notas": [
+      "P/L elevado (30.0) — precificado para crescimento",
+      "Sem dividendos relevantes",
+      "ROE excelente (160.0%) — alta rentabilidade"
+    ],
+    "timestamp": "2026-03-15T10:23:32.169273",
+    "modo": "SUGESTAO",
+    "aviso": "SUGESTAO APENAS — nao executa trades automaticamente"
+  },
+  "MSFT": {
+    "ticker": "MSFT",
+    "nome": "Microsoft Corp",
+    "setor": "Tecnologia",
+    "mercado": "NYSE",
+    "preco_atual": 420.0,
+    "indicadores": {
+      "pl": 35.0,
+      "dividend_yield": 0.7,
+      "roe": 38.0,
+      "pvp": 13.0
+    },
+    "score": 4,
+    "score_max": 11,
+    "score_pct": 36.4,
+    "recomendacao": "CAUTELA",
+    "notas": [
+      "P/L elevado (35.0) — precificado para crescimento",
+      "Sem dividendos relevantes",
+      "ROE excelente (38.0%) — alta rentabilidade"
+    ],
+    "timestamp": "2026-03-15T10:23:32.169377",
+    "modo": "SUGESTAO",
+    "aviso": "SUGESTAO APENAS — nao executa trades automaticamente"
+  },
+  "GOOGL": {
+    "ticker": "GOOGL",
+    "nome": "Alphabet Inc",
+    "setor": "Tecnologia",
+    "mercado": "NYSE",
+    "preco_atual": 170.0,
+    "indicadores": {
+      "pl": 25.0,
+      "dividend_yield": 0,
+      "roe": 25.0,
+      "pvp": 6.5
+    },
+    "score": 4,
+    "score_max": 11,
+    "score_pct": 36.4,
+    "recomendacao": "CAUTELA",
+    "notas": [
+      "P/L elevado (25.0) — precificado para crescimento",
+      "Sem dividendos relevantes",
+      "ROE excelente (25.0%) — alta rentabilidade"
+    ],
+    "timestamp": "2026-03-15T10:23:32.169504",
+    "modo": "SUGESTAO",
+    "aviso": "SUGESTAO APENAS — nao executa trades automaticamente"
+  }
+}
