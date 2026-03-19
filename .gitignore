@@ -35,3 +35,6 @@ dashboard_master/
 *.bak
 # Submodule/project directories
 projetos_ativos/
+
+# Nexus status files
+STATUS_NEXUS_*.md
