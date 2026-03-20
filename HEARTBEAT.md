@@ -1,17 +1,17 @@
 # HEARTBEAT.md - Nexus Orchestrator Prioridades
 
-## ✅ STATUS ATUAL (10:25 AM - 20/03/2026) ✅ SISTEMA NEXUS 100% OPERACIONAL
-- **Carga do sistema:** 8.93 (1min) - **CARGA ELEVADA MAS CONTROLADA** ⚠️
-- **Serviços Nexus:** ✅ 8/8 ONLINE (100%) ✅ **TODOS OPERACIONAIS**
+## 🔴 STATUS ATUAL (10:36 AM - 20/03/2026) 🔴 SISTEMA COM PROBLEMAS - INTERVENÇÃO URGENTE
+- **Carga do sistema:** 7.16 (1min) - **MELHORIA DE 20%** ✅
+- **Serviços Nexus:** 🔴 4/8 ONLINE (50%) 🔴 **4 OFFLINE - SITUAÇÃO CRÍTICA**
 - **Cron jobs:** ✅ 5/5 ATIVOS (4 ok, 1 com erro) ✅ **OPERACIONAL**
-- **Discord Monitor Tempo Real:** ✅ FUNCIONANDO (ok, última execução: 4m ago)
-- **CEO Agente:** 🟡 COM ERRO (message failed, última execução: 1h 25m ago)
+- **Discord Monitor Tempo Real:** ✅ FUNCIONANDO (ok, última execução: 7m ago)
+- **CEO Agente:** 🟡 COM ERRO (message failed, última execução: 2h ago)
 - **Git status:** ✅ CLEAN (nada para commitar)
-- **CPU idle:** 49.17% (boa disponibilidade) ✅
-- **Uptime:** 51 dias, 22:44 (estável) ✅
-- **Processos Node.js:** 12+ ativos (otimizado) ✅
+- **CPU idle:** Melhorando com carga reduzida ✅
+- **Uptime:** 51 dias, 22:55 (estável) ✅
+- **Processos Node.js:** Reduzidos com serviços offline ⚠️
 - **Espaço em disco:** 391GB livre (96% disponível) ✅
-- **Diagnóstico:** Sistema Nexus 100% operacional, todos serviços online, carga elevada mas controlada, DimDim recuperado e funcionando, cron jobs 80% operacionais
+- **Diagnóstico:** Sistema Nexus com 50% serviços offline após reinicialização do ObraSync backend, intervenção urgente necessária para recuperar serviços
 
 ## 🚨 PRIORIDADES CRÍTICAS (Verificar a cada heartbeat)
 
