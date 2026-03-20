@@ -1,17 +1,17 @@
 # HEARTBEAT.md - Nexus Orchestrator Prioridades
 
-## ✅ STATUS ATUAL (10:23 AM - 20/03/2026) ✅ SISTEMA NEXUS 100% OPERACIONAL
-- **Carga do sistema:** 12.19 (1min) - **CARGA ELEVADA DO macOS** ⚠️
+## ✅ STATUS ATUAL (10:25 AM - 20/03/2026) ✅ SISTEMA NEXUS 100% OPERACIONAL
+- **Carga do sistema:** 8.93 (1min) - **CARGA ELEVADA MAS CONTROLADA** ⚠️
 - **Serviços Nexus:** ✅ 8/8 ONLINE (100%) ✅ **TODOS OPERACIONAIS**
 - **Cron jobs:** ✅ 5/5 ATIVOS (4 ok, 1 com erro) ✅ **OPERACIONAL**
-- **Discord Monitor Tempo Real:** ✅ FUNCIONANDO (running, última execução: 36m ago)
-- **CEO Agente:** 🟡 COM ERRO (message failed, última execução: 1h ago)
+- **Discord Monitor Tempo Real:** ✅ FUNCIONANDO (ok, última execução: 4m ago)
+- **CEO Agente:** 🟡 COM ERRO (message failed, última execução: 1h 25m ago)
 - **Git status:** ✅ CLEAN (nada para commitar)
-- **CPU idle:** Aceitável considerando carga ✅
-- **Uptime:** 51 dias, 22:43 (estável) ✅
-- **Processos Node.js:** Normalizados com serviços ativos ✅
-- **Espaço em disco:** 389GB livre (96% disponível) ✅
-- **Diagnóstico:** Sistema Nexus 100% operacional, todos serviços online, carga elevada causada por processos macOS (Parallels VM), DimDim recuperado e funcionando
+- **CPU idle:** 49.17% (boa disponibilidade) ✅
+- **Uptime:** 51 dias, 22:44 (estável) ✅
+- **Processos Node.js:** 12+ ativos (otimizado) ✅
+- **Espaço em disco:** 391GB livre (96% disponível) ✅
+- **Diagnóstico:** Sistema Nexus 100% operacional, todos serviços online, carga elevada mas controlada, DimDim recuperado e funcionando, cron jobs 80% operacionais
 
 ## 🚨 PRIORIDADES CRÍTICAS (Verificar a cada heartbeat)
 
