@@ -1,17 +1,17 @@
 # HEARTBEAT.md - Nexus Orchestrator Prioridades
 
-## 🔄 STATUS ATUAL (10:07 AM - 20/03/2026) 🔄 SISTEMA EM ESTABILIZAÇÃO - RECUPERAÇÃO SIGNIFICATIVA
-- **Carga do sistema:** 8.83 (1min) - **CARGA ELEVADA MAS CONTROLADA** 🟡
+## ⚠️ STATUS ATUAL (10:18 AM - 20/03/2026) ⚠️ SISTEMA OPERACIONAL COM CARGA ELEVADA DO macOS
+- **Carga do sistema:** 12.45 (1min) - **ALTA CARGA DO macOS** ⚠️
 - **Serviços Nexus:** ✅ 7/8 ONLINE (87.5%) ⚠️ **1 OFFLINE (DimDim)**
-- **Cron jobs:** ✅ 5/5 ATIVOS (3 ok, 2 com erro) ✅ **OPERACIONAL**
-- **Discord Monitor Tempo Real:** 🟡 COM ERRO (timeout, última execução: 6m ago)
+- **Cron jobs:** ✅ 5/5 ATIVOS (4 ok, 1 com erro) ✅ **OPERACIONAL**
+- **Discord Monitor Tempo Real:** ✅ FUNCIONANDO (running, última execução: 31m ago)
 - **CEO Agente:** 🟡 COM ERRO (message failed, última execução: 1h ago)
-- **Git status:** ⚠️ 1 não rastreado (memory/2026-03-20-heartbeat-1002.md)
-- **CPU idle:** 45.66% (pressão moderada) ⚠️
-- **Uptime:** 51 dias, 22:27 (estável) ✅
-- **Processos Node.js:** 12 ativos (otimizado) ✅
+- **Git status:** ✅ CLEAN (nada para commitar)
+- **CPU idle:** 54.54% (aceitável) ✅
+- **Uptime:** 51 dias, 22:38 (estável) ✅
+- **Processos Node.js:** 22 ativos (normal) ✅
 - **Espaço em disco:** 389GB livre (96% disponível) ✅
-- **Diagnóstico:** Sistema Nexus em estabilização após colapso, 87.5% serviços online, carga reduzindo gradualmente, 2 cron jobs com erro sendo investigados
+- **Diagnóstico:** Sistema Nexus 87.5% operacional, alta carga causada por Parallels VM (105% CPU) e mediaanalysisd (52% CPU), serviços Nexus funcionando normalmente
 
 ## 🚨 PRIORIDADES CRÍTICAS (Verificar a cada heartbeat)
 
