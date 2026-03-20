@@ -1,17 +1,17 @@
 # HEARTBEAT.md - Nexus Orchestrator Prioridades
 
-## ⚠️ STATUS ATUAL (10:18 AM - 20/03/2026) ⚠️ SISTEMA OPERACIONAL COM CARGA ELEVADA DO macOS
-- **Carga do sistema:** 12.45 (1min) - **ALTA CARGA DO macOS** ⚠️
-- **Serviços Nexus:** ✅ 7/8 ONLINE (87.5%) ⚠️ **1 OFFLINE (DimDim)**
+## 🔄 STATUS ATUAL (10:21 AM - 20/03/2026) 🔄 SISTEMA MELHORANDO - DIMDIM EM REINICIALIZAÇÃO
+- **Carga do sistema:** 8.34 (1min) - **MELHORIA DE 33%** ✅
+- **Serviços Nexus:** ✅ 7/8 ONLINE (87.5%) ⚠️ **1 OFFLINE (DimDim - em reinicialização)**
 - **Cron jobs:** ✅ 5/5 ATIVOS (4 ok, 1 com erro) ✅ **OPERACIONAL**
-- **Discord Monitor Tempo Real:** ✅ FUNCIONANDO (running, última execução: 31m ago)
+- **Discord Monitor Tempo Real:** ✅ FUNCIONANDO (running, última execução: 33m ago)
 - **CEO Agente:** 🟡 COM ERRO (message failed, última execução: 1h ago)
 - **Git status:** ✅ CLEAN (nada para commitar)
-- **CPU idle:** 54.54% (aceitável) ✅
-- **Uptime:** 51 dias, 22:38 (estável) ✅
-- **Processos Node.js:** 22 ativos (normal) ✅
+- **CPU idle:** Melhorando com carga reduzida ✅
+- **Uptime:** 51 dias, 22:40 (estável) ✅
+- **Processos Node.js:** Normalizados com serviços ativos ✅
 - **Espaço em disco:** 389GB livre (96% disponível) ✅
-- **Diagnóstico:** Sistema Nexus 87.5% operacional, alta carga causada por Parallels VM (105% CPU) e mediaanalysisd (52% CPU), serviços Nexus funcionando normalmente
+- **Diagnóstico:** Sistema Nexus 87.5% operacional, carga melhorando significativamente (33%), DimDim sendo reiniciado em modo desenvolvimento após falha de build
 
 ## 🚨 PRIORIDADES CRÍTICAS (Verificar a cada heartbeat)
 
