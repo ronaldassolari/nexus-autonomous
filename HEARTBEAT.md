@@ -3,8 +3,8 @@
 ## 🚨 PRIORIDADES CRÍTICAS (Verificar a cada heartbeat)
 
 ### 1. Sistema Nexus - Status de Recursos
-- [x] Verificar load average (atual: 5.50 - CARGA ELEVADA DO macOS) ⚠️
-- [x] Monitorar causa de alta carga (bird 77.4% CPU, fileproviderd 19.7%) ⚠️
+- [x] Verificar load average (atual: 11.98 - CARGA CRÍTICA DO macOS) 🔴
+- [x] Monitorar causa de alta carga (bird 85.7%, cloudd 38.6%, mds_stores 29.9%) 🔴
 - [x] Verificar espaço em disco (389GB livre, 4% usado) ✅
 - [x] Processos Node.js ativos (estável) ✅
 
@@ -37,10 +37,10 @@
 - [x] Nexus Autonomous: Git status clean ✅
 - [x] Sistema de arquivos organizado ✅
 
-## 📊 MÉTRICAS DE SISTEMA (02:29 AM - 20/03/2026)
-- Load average atual: 15.15, 11.40, 12.24 (1, 5, 15 min) - CARGA CRÍTICA DO macOS 🔴
-- Uptime: 51 dias, 14:48 (sistema extremamente estável)
-- CPU top: bird 72.3% (iCloud sync), fileproviderd 54.9% (File Provider), cloudd 18.1% (CloudKit) 🔴
+## 📊 MÉTRICAS DE SISTEMA (02:37 AM - 20/03/2026)
+- Load average atual: 11.98, 16.84, 14.90 (1, 5, 15 min) - CARGA CRÍTICA DO macOS 🔴
+- Uptime: 51 dias, 14:56 (sistema necessita reinício) 🔴
+- CPU top: bird 85.7% (iCloud sync), cloudd 38.6% (CloudKit), mds_stores 29.9% (Spotlight) 🔴
 - Serviços Nexus online: 100% (8/8 serviços ativos online) ✅
 - Processos Node.js: Estáveis e operacionais ✅
 - Espaço em disco: 389GB livre (96%+ disponível) ✅
@@ -141,13 +141,14 @@
 5. **Identificação processos críticos:** ✅ Identificados processos travados: bird (72.3%), fileproviderd (54.9%), cloudd (18.1%)
 
 ## 🎯 AÇÕES IMEDIATAS 🔴 PRIORIDADE ALTA
-1. **REINICIAR SISTEMA macOS:** 🔴 **AÇÃO CRÍTICA REQUERIDA - IMEDIATA**
-   - Status: load average 12.24 (15min) é CRÍTICO para performance
-   - Diagnóstico: Processos system do macOS travados (bird 72.3%, fileproviderd 54.9%, cloudd 18.1%)
+1. **REINICIAR SISTEMA macOS:** 🔴 **AÇÃO CRÍTICA REQUERIDA - AGUARDANDO APROVAÇÃO**
+   - Status: load average 14.90 (15min) é CRÍTICO para performance
+   - Diagnóstico: Processos system do macOS travados (bird 85.7%, cloudd 38.6%, mds_stores 29.9%)
    - Impacto: Sistema em risco de travamento total
-   - Ação: **REINICIAR O SISTEMA IMEDIATAMENTE** para limpar processos travados
+   - Ação: **REINICIAR O SISTEMA REQUER APROVAÇÃO DO USUÁRIO**
    - Justificativa: Uptime 51+ dias, processos system acumulados e travados
    - Benefício esperado: Load average normalizado (< 5.0)
+   - Status atual: Diagnóstico completo, arquivos commitados, aguardando ação
    
 2. **Corrigir cron job Nexus Orchestrator:** ⚠️ **PRIORIDADE MÉDIA**
    - Status: Job funciona, delivery falha ("⚠️ ✉️ Message failed")
@@ -159,8 +160,7 @@
    - Ação: Configurar target E.164/group JID para WhatsApp
    - Timeline: Nas próximas 24h
    
-4. **Commit arquivos modificados:** 🟢 **PRIORIDADE BAIXA**
-   - HEARTBEAT.md modificado
-   - memory/2026-03-20-heartbeat-0158.md não rastreado
-   - STATUS_NEXUS_0229.md criado
-   - Commit quando conveniente
+4. **Commit arquivos modificados:** ✅ **CONCLUÍDO**
+   - HEARTBEAT.md commitado
+   - memory/2026-03-20-heartbeat-*.md commitados
+   - Status: ✅ Todos os arquivos commitados e pushados
