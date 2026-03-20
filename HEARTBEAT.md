@@ -1,19 +1,19 @@
 # HEARTBEAT.md - Nexus Orchestrator Prioridades
 
-## 🔄 STATUS ATUAL (11:07 AM - 20/03/2026) 🔄 SISTEMA NEXUS 87.5% OPERACIONAL - DESEMPENHO EXCEPCIONAL
-- **Carga do sistema:** 2.67 (1min) - **DESEMPENHO EXCEPCIONAL** ✅
-- **Serviços Nexus:** ✅ 6/8 ONLINE (75%) ⚠️ **2 OFFLINE**
+## 🔄 STATUS ATUAL (11:12 AM - 20/03/2026) 🔄 SISTEMA NEXUS 62.5% OPERACIONAL - INTERVENÇÃO EM ANDAMENTO
+- **Carga do sistema:** 5.88 (1min) - **CARGA AUMENTADA COM REINICIALIZAÇÕES** ⚠️
+- **Serviços Nexus:** ✅ 5/8 ONLINE (62.5%) ⚠️ **3 OFFLINE**
 - **Cron jobs:** ✅ 5/5 ATIVOS (4 ok, 1 com erro) ✅ **80% OPERACIONAL**
-- **Discord Monitor Tempo Real:** ✅ FUNCIONANDO (running, última execução: 15m ago)
-- **CEO Agente:** 🟡 COM ERRO (message failed, última execução: 13m ago)
-- **Git status:** ✅ COMMITADO (commit 3fc4782)
-- **CPU idle:** Excelente com carga mínima ✅
-- **Uptime:** 51 dias, 23:27 (estável) ✅
-- **Processos Node.js:** Normalizados com serviços ativos ✅
+- **Discord Monitor Tempo Real:** ✅ FUNCIONANDO (ok, última execução: 2m ago)
+- **CEO Agente:** 🟡 COM ERRO (message failed, última execução: 18m ago)
+- **Git status:** ✅ COMMITADO (commit dc5efcb)
+- **CPU idle:** Aceitável com reinicializações ✅
+- **Uptime:** 51 dias, 23:31 (estável) ✅
+- **Processos Node.js:** Aumentando com reinicializações 🔄
 - **Espaço em disco:** 394GB livre (96% disponível) ✅
 - **Memória livre:** Normal para macOS ✅
 - **Projetos ativos:** 6 projetos monitorados
-- **Diagnóstico:** Sistema Nexus com desempenho excepcional (carga 2.67), 6/8 serviços online, ObraSync backend recuperado, 2 serviços offline sendo tratados
+- **Diagnóstico:** Sistema Nexus em intervenção, 5/8 serviços online, Nexus Command Center e Clipagem Dashboard recuperados, Cripto Trader e DimDim sendo reiniciados
 
 ## 🚨 PRIORIDADES CRÍTICAS (Verificar a cada heartbeat)
 
