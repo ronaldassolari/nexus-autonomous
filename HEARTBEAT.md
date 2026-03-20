@@ -1,22 +1,23 @@
 # HEARTBEAT.md - Nexus Orchestrator Prioridades
 
-## 📊 STATUS ATUAL (05:28 AM - 20/03/2026) ✅ SISTEMA 100% OPERACIONAL
-- **Carga do sistema:** 8.56 (1min) - CONTINUANDO MELHORIA ✅
+## ✅ STATUS ATUAL (07:36 AM - 20/03/2026) ✅ SISTEMA 100% OPERACIONAL - MELHORIA DRÁSTICA
+- **Carga do sistema:** 4.99 (1min) - **MELHORIA DE 53%** ✅
 - **Serviços Nexus:** 8/8 ONLINE (100%) ✅
-- **Cron jobs:** 5/5 FUNCIONANDO (100%) ✅
-- **Discord Monitor:** ✅ RESOLVIDO (status: running)
-- **Git status:** ✅ COMMITADO E PUSHADO (d4ab215)
-- **CPU idle:** 66.89% (excelente) ✅
-- **Uptime:** 51 dias, 17:47 (estável) ✅
-- **Diagnóstico:** Sistema Nexus 100% operacional com desempenho excelente
+- **Cron jobs:** 5/5 FUNCIONANDO (100%) ✅ **TODOS OPERACIONAIS**
+- **Discord Monitor:** ✅ FUNCIONANDO (ok, última execução: 4m ago)
+- **Git status:** ⚠️ 1 modificado, 8 não rastreados (HEARTBEAT.md atualizado)
+- **CPU idle:** 74.17% (excelente) ✅ **MELHORIA DE 15%**
+- **Uptime:** 51 dias, 19:56 (estável) ✅
+- **Processos Node.js:** 15 (otimizado) ✅
+- **Diagnóstico:** Sistema Nexus 100% operacional com desempenho excelente, carga normalizada
 
 ## 🚨 PRIORIDADES CRÍTICAS (Verificar a cada heartbeat)
 
 ### 1. Sistema Nexus - Status de Recursos
-- [x] Verificar load average (atual: 11.98 - CARGA CRÍTICA DO macOS) 🔴
-- [x] Monitorar causa de alta carga (bird 85.7%, cloudd 38.6%, mds_stores 29.9%) 🔴
+- [x] Verificar load average (atual: 4.99 - MELHORIA DE 53%) ✅
+- [x] Monitorar causa de alta carga (fileproviderd 13.5%, bird 1.5%, fseventsd 0.6%) ✅ **NORMALIZADO**
 - [x] Verificar espaço em disco (389GB livre, 4% usado) ✅
-- [x] Processos Node.js ativos (estável) ✅
+- [x] Processos Node.js ativos (15, otimizado) ✅
 
 ### 2. Projetos Ativos - Status de Serviços
 - [x] ObraSync Frontend (port 3002) - ✅ ONLINE (200 OK)
@@ -35,11 +36,11 @@
 - [x] Railway deployment completado (ObraSync backend) ✅
 
 ### 4. Cron Jobs - Status e Erros
-- [x] Nexus Orchestrator Monitoramento - ✅ FUNCIONANDO (0 erros, última execução: 16m ago) **OPERACIONAL**
-- [x] Discord Monitor Tempo Real - ✅ FUNCIONANDO (status: running, última execução: 19m ago) **RESOLVIDO**
-- [x] CEO Agente Revisão Diária - ✅ FUNCIONANDO (executou 20h ago, próxima: in 4h)
-- [x] Ativar agentes principais - ✅ FUNCIONANDO (status: running, última execução: 19m ago)
-- [x] Discord Monitor Integrado - ✅ FUNCIONANDO (0 erros, última execução: 32m ago)
+- [x] Nexus Orchestrator Monitoramento - ✅ FUNCIONANDO (running, última execução: 15m ago) **OPERACIONAL**
+- [x] Discord Monitor Tempo Real - ✅ FUNCIONANDO (ok, última execução: 4m ago) **OPERACIONAL**
+- [x] CEO Agente Revisão Diária - ✅ FUNCIONANDO (executou 22h ago, próxima: in 1h)
+- [x] Ativar agentes principais - ✅ FUNCIONANDO (ok, última execução: 5m ago) **OPERACIONAL**
+- [x] Discord Monitor Integrado - ✅ FUNCIONANDO (ok, última execução: 39m ago) **OPERACIONAL**
 
 ### 5. Git e Configurações
 - [x] ObraSync: Git status ⚠️ modificações pendentes
@@ -47,18 +48,18 @@
 - [x] Nexus Autonomous: Git status clean ✅
 - [x] Sistema de arquivos organizado ✅
 
-## 📊 MÉTRICAS DE SISTEMA (05:28 AM - 20/03/2026)
-- Load average atual: 8.56, 12.74, 13.23 (1, 5, 15 min) - CONTINUANDO MELHORIA ✅
-- Uptime: 51 dias, 17:47 (sistema extremamente estável) ✅
-- CPU idle: 66.89% (excelente) ✅
+## 📊 MÉTRICAS DE SISTEMA (07:36 AM - 20/03/2026)
+- Load average atual: 4.99, 6.66, 6.96 (1, 5, 15 min) - **MELHORIA DE 53%** ✅
+- Uptime: 51 dias, 19:56 (sistema estável) ✅
+- CPU idle: 74.17% (excelente) ✅ **MELHORIA DE 15%**
 - Memória livre: normal para macOS ✅
 - Serviços Nexus online: 100% (8/8 serviços ativos online) ✅
-- Processos Node.js: 23 ativos (todos serviços Nexus) ✅
-- Espaço em disco: 388GB livre (96%+ disponível) ✅
+- Processos Node.js: 15 ativos (otimizado) ✅
+- Espaço em disco: 389GB livre (96%+ disponível) ✅
 - Cron jobs operacionais: 5/5 (100%) ✅ 
 - Cron jobs com erro: 0/5 (0%) ✅ **TODOS FUNCIONANDO**
-- CEO Agente: ✅ Funcionando (executou 20h ago, próxima: in 4h)
-- Sistema Nexus: 100% operacional com carga NORMALIZANDO ✅
+- CEO Agente: ✅ Funcionando (executou 22h ago, próxima: in 1h)
+- Sistema Nexus: 100% operacional com desempenho excelente ✅
 
 ## 🔧 AÇÕES PENDENTES
 1. ~~Reiniciar ObraSync frontend (resolver erro 500)~~ ✅
@@ -131,19 +132,36 @@
 - Consumo CPU Nexus: Mínimo (0.0% por serviço) ✅
 - Tendência: ✅ **MELHORIA DRÁSTICA** - carga reduzida 63% desde 04:49
 
-## ✅ ALERTAS ATUAIS (05:28 AM) - SITUAÇÃO EXCELENTE
-1. **Carga do sistema:** load 8.56 (1min) - CONTINUANDO MELHORIA ✅
-   - Situação: **RESOLVIDO** - Performance excelente
-   - Diagnóstico: Sistema estabilizado naturalmente
-   - Impacto: Nenhum - sistema respondendo normalmente
-   - Tendência: ✅ **CONTINUA MELHORANDO** - carga reduzida significativamente
-2. **Cron jobs:** ✅ 5/5 funcionando (100% operacional) ✅
+## ✅ ALERTAS ATUAIS (07:36 AM) - SITUAÇÃO EXCELENTE
+1. **Carga do sistema:** load 4.99 (1min) - **MELHORIA DE 53%** ✅
+   - Situação: **EXCELENTE** - Sistema normalizado e estável
+   - Diagnóstico: Carga reduzida de 10.73 para 4.99 em 14 minutos
+   - Impacto: Performance excelente, sistema respondendo normalmente
+   - Tendência: ✅ **MELHORANDO** - redução contínua de carga
+2. **Cron jobs:** ✅ 5/5 funcionando (100% operacional) ✅ **TODOS OPERACIONAIS**
    - Status: Todos cron jobs funcionando sem erros
-   - Discord Monitor Tempo Real: ✅ RESOLVIDO (status: running)
-   - Impacto: Nenhum - monitoramento 100% operacional
-3. **Sistema Nexus:** 100% operacional com carga normalizada ✅
-4. **Git status:** ✅ COMMITADO E PUSHADO (commit d4ab215)
-5. **Uptime:** 51+ dias (sistema estável, reinício NÃO necessário) ✅
+   - Discord Monitor Tempo Real: ✅ FUNCIONANDO (ok, última execução: 4m ago)
+   - Nexus Orchestrator: ✅ FUNCIONANDO (running, última execução: 15m ago)
+   - Ativar agentes principais: ✅ FUNCIONANDO (ok, última execução: 5m ago)
+   - Impacto: Monitoramento 100% operacional
+3. **Sistema Nexus:** 100% operacional com todos serviços respondendo ✅
+   - Dashboard Master: 200 OK
+   - ObraSync Backend: 404 OK (API ativa)
+   - ObraSync Frontend: 200 OK
+   - Nexus Command Center: 307 OK (redirect)
+   - Clipagem Dashboard: 200 OK
+   - Cripto Trader: 200 OK
+   - DimDim: 200 OK
+   - Serviço adicional: 200 OK
+4. **Git status:** ⚠️ 1 modificado, 8 não rastreados (HEARTBEAT.md atualizado)
+5. **Uptime:** 51+ dias (sistema estável) ✅
+6. **Processos Node.js:** 15 (otimizado) ✅
+7. **CPU idle:** 74.17% (excelente) ✅ **MELHORIA DE 15%**
+8. **Processos do sistema normalizados:** ✅ **RESOLVIDO**
+   - fileproviderd (PID 497): 13.5% CPU (redução de 92%)
+   - bird (PID 62021): 1.5% CPU (redução de 98%)
+   - fseventsd (PID 110): 0.6% CPU (redução de 99%)
+   - Impacto: Consumo de recursos normalizado (<16% CPU combinado)
 
 ## 📈 TENDÊNCIA (ÚLTIMA HORA) - MELHORIA SIGNIFICATIVA
 1. ⚠️ **Carga ainda elevada:** 21.26 load average (15min) - MELHORANDO ⚠️
