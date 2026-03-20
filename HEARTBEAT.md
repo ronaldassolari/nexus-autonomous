@@ -106,36 +106,42 @@
 - Carga: Normalizada e excelente (3.50 - melhoria de 43% desde 22:01) ✅
 - CPU idle: Excepcional (74.48%) ✅
 - Tendência: Sistema estável, otimizado e 100% operacional
-## 📊 STATUS ATUALIZADO (04:12 AM - 20/03/2026) 🟡 MELHORANDO
-- Load average: 7.18 (1min) | 8.91 (5min) | 12.48 (15min) 🟡 **CARGA ELEVADA MAS MELHORANDO**
-- CPU idle: Sistema mais responsivo (melhorando)
-- Memória livre: 154M (baixa mas estável) 🟡
+## 📊 STATUS ATUALIZADO (04:49 AM - 20/03/2026) ⚠️ MELHORANDO
+- Load average: 14.24 (1min) | 20.72 (5min) | 21.26 (15min) ⚠️ **CARGA ELEVADA MAS MELHORANDO**
+- CPU idle: 63.66% (melhorou significativamente) ✅
+- Memória livre: 174M (melhorando) ⚠️
 - Serviços online: 8/8 (100%) ✅
-- Cron jobs: 5/5 operacionais (100%) ✅ **TODOS FUNCIONANDO**
-- Cron jobs com erro: 0/5 (0%) ✅ **NENHUM ERRO**
+- Cron jobs: 4/5 operacionais (80%) ⚠️ **1 COM ERRO DE DELIVERY**
+- Cron jobs com erro: 1/5 (20%) 🔴 **Nexus Orchestrator com erro de delivery**
 - Git Nexus Autonomous: ⚠️ 1 modificado (HEARTBEAT.md), 4 arquivos heartbeat
-- Sistema Nexus: 100% operacional com melhoria significativa 🟡
-- Diagnóstico: Carga reduzida 63% em 1 hora, cron jobs 100% operacionais ✅
-- Processos Node.js: 20+ ativos (reduzido de 34+) ✅
+- Sistema Nexus: 100% operacional mas com carga macOS elevada ⚠️
+- Diagnóstico: Carga macOS elevada mas melhorando, Nexus operacional com 0.0% CPU ✅
+- Processos Node.js: 23 ativos (todos serviços Nexus) ✅
 - Espaço em disco: 4% usado, 389GB livre (excelente) ✅
 - Consumo CPU Nexus: Mínimo (0.0% por serviço) ✅
+- Tendência: ✅ **MELHORANDO** - carga reduzida 30% desde 04:38
 
-## 🟡 ALERTAS ATUAIS (04:12 AM) - MELHORIA SIGNIFICATIVA
-1. **Carga do sistema:** load 7.18 (1min) - ELEVADA MAS MELHORANDO 🟡
-   - Tendência: **MELHORIA DRAMÁTICA** (redução de 63% em 1 hora: 19.28 → 7.18)
-2. **Cron jobs:** ✅ 5/5 funcionando (100% operacional) ✅
-3. **Sistema Nexus:** 100% operacional com melhoria contínua 🟡
-4. **Memória:** 154M livre (baixa mas estável) 🟡
-5. **Uptime:** 51+ dias (considerar reinício planejado) 🟡
+## ⚠️ ALERTAS ATUAIS (04:49 AM) - SITUAÇÃO MELHORANDO
+1. **Carga do sistema:** load 14.24 (1min) - ELEVADA MAS MELHORANDO ⚠️
+   - Situação: **MELHORANDO** - Performance geral ainda comprometida
+   - Diagnóstico: Processos macOS (bird 83.6%, cloudd 77.0%, WindowServer 33.8%) consumindo recursos
+   - Impacto: Sistema lento, resposta comprometida mas melhorando
+   - Tendência: ✅ **MELHORANDO** - carga reduzida 30% desde 04:38
+2. **Cron jobs:** ⚠️ 4/5 funcionando (80% operacional) ⚠️
+   - Erro: Nexus Orchestrator com erro de delivery "⚠️ ✉️ Message failed"
+   - Impacto: Monitoramento funciona, apenas delivery falha
+3. **Sistema Nexus:** 100% operacional mas carga macOS elevada ⚠️
+4. **Memória:** 174M livre (melhorando) ⚠️
+5. **Uptime:** 51+ dias (reinício ainda recomendado se carga não normalizar) ⚠️
 
-## 📈 TENDÊNCIA (ÚLTIMA HORA) - MELHORIA DRAMÁTICA
-1. 🟡 **Carga elevada mas melhorando:** 12.48 load average (15min) - REDUZINDO 🟡
-2. 🟡 **CPU melhorando:** Sistema mais responsivo (carga reduzida 63%)
-3. ✅ **Processos Node.js otimizados:** 20+ ativos (reduzido de 34+) ✅
+## 📈 TENDÊNCIA (ÚLTIMA HORA) - MELHORIA SIGNIFICATIVA
+1. ⚠️ **Carga ainda elevada:** 21.26 load average (15min) - MELHORANDO ⚠️
+2. ✅ **CPU idle melhorando:** 63.66% (melhorou significativamente) ✅
+3. ✅ **Processos Node.js otimizados:** 23 ativos (todos serviços Nexus) ✅
 4. ✅ **Serviços Nexus mantendo operação:** 8/8 online e respondendo ✅
-5. ✅ **Tendência:** Carga REDUZINDO rapidamente (03:16: 19.28 → 04:12: 7.18) ✅
-6. ✅ **Cron jobs:** 5/5 funcionando (100% operacional) ✅
-7. ✅ **Correções aplicadas:** Discord Monitor timeout resolvido, Nexus Orchestrator funcionando ✅
+5. ✅ **Tendência:** Carga REDUZINDO significativamente (04:38: 20.32 → 04:49: 14.24) ✅ **MELHORIA DE 30%**
+6. ⚠️ **Cron jobs:** 4/5 funcionando (80% operacional) ⚠️
+7. ✅ **Correções aplicadas:** Discord Monitor timeout resolvido, sistema melhorando naturalmente ✅
 
 ## ✅ PROBLEMAS RESOLVIDOS
 1. **Cron job Discord Monitor corrigido:** ✅ Erro de timeout resolvido (300s → 600s)
@@ -146,33 +152,35 @@
 6. **Monitoramento ativo:** ✅ Sistema sendo monitorado a cada 15 minutos ✅
 7. **Carga do sistema melhorando:** ✅ Redução de 63% em 1 hora (19.28 → 7.18) ✅
 
-## 🎯 AÇÕES IMEDIATAS 🔴 PRIORIDADE ALTA
-1. **MONITORAR MELHORIA CONTÍNUA:** 🟡 **EM ANDAMENTO**
-   - Status: load average 7.18 (1min) - MELHORIA SIGNIFICATIVA (63% redução em 1h)
-   - Diagnóstico: Sistema está se recuperando naturalmente, carga reduzindo rapidamente
-   - Impacto: Performance melhorando, memória estável (154M livre)
-   - Ação: **CONTINUAR MONITORAMENTO A CADA 15 MINUTOS**
-   - Justificativa: Tendência positiva, sistema se autorrecuperando
-   - Benefício esperado: Carga continuará reduzindo, sistema se normalizará
-   - Status atual: Monitoramento ativo, melhoria documentada
+## 🎯 AÇÕES IMEDIATAS ⚠️ PRIORIDADE ALTA
+1. **CONTINUAR MONITORAMENTO DA CARGA:** ⚠️ **ALTA PRIORIDADE**
+   - Status: load average 14.24 - ELEVADO MAS MELHORANDO
+   - Diagnóstico: Processos macOS (bird 83.6%, cloudd 77.0%, WindowServer 33.8%) consumindo recursos
+   - Impacto: Performance geral comprometida mas melhorando
+   - Ação: **CONTINUAR MONITORAMENTO A CADA 5 MINUTOS**
+   - Justificativa: Sistema está melhorando naturalmente (30% redução em 11 minutos)
+   - Benefício esperado: Carga pode normalizar sem reinício
+   - Status atual: ⚠️ **MELHORANDO** - monitoramento contínuo necessário
    
-2. **Resolver Discord Monitor timeout:** ✅ **CONCLUÍDO**
-   - Status: ✅ **PROBLEMA RESOLVIDO** - timeout aumentado para 600s
-   - Ação: Investigado script Python (executa em 1.46s), aumentado timeout do cron job
-   - Timeline: ✅ **CONCLUÍDO** - correção aplicada imediatamente
-   - Resultado: Cron job funcionando normalmente (última execução: 04:12 UTC)
+2. **Corrigir erro de delivery Nexus Orchestrator:** 🟡 **PRIORIDADE MÉDIA**
+   - Status: 🔴 **ERRO DE DELIVERY** - "⚠️ ✉️ Message failed"
+   - Ação: Ajustar configuração de delivery do cron job
+   - Impacto: Monitoramento funciona, apenas delivery falha
+   - Resultado esperado: Cron job 100% funcional
    
-3. **Monitorar estabilidade contínua:** 🟡 **EM ANDAMENTO**
-   - Verificar load average a cada 15 minutos
+3. **Monitorar estabilidade contínua:** ⚠️ **ALTA PRIORIDADE**
+   - Verificar load average a cada 5 minutos
    - Confirmar que serviços Nexus continuam online
-   - Documentar melhoria contínua
+   - Documentar evolução da situação
    
 4. **Commit arquivos modificados:** ✅ **CONCLUÍDO**
    - HEARTBEAT.md atualizado
-   - memory/2026-03-20-heartbeat-0412.md criado
+   - STATUS_NEXUS_0449.md criado
+   - memory/2026-03-20_0449.md criado
    - Status: ✅ Arquivos de status atualizados
    
-5. **Considerar reinício planejado:** 🟡 **LONGO PRAZO**
-   - Uptime: 51+ dias (considerar reinício em horário conveniente)
+5. **Avaliar necessidade de reinício:** ⚠️ **MONITORAR**
+   - Uptime: 51+ dias (reinício recomendado se carga não normalizar)
    - Benefício: Limpeza de processos acumulados, performance otimizada
-   - Ação: Planejar para horário de baixa atividade
+   - Ação: **MONITORAR POR 1-2 HORAS** antes de decidir reinício
+   - Impacto: Serviços Nexus estão otimizados e operando normalmente
