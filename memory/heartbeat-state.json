@@ -1,16 +1,16 @@
 {
   "lastChecks": {
-    "system_recovery": 1774015488000,
-    "load_average": 1774015488000,
-    "memory": 1774015488000,
-    "cron_jobs": 1774015488000,
-    "active_projects": 1774015488000,
-    "services": 1774015488000,
-    "nexus_orchestrator": 1774015488000
+    "system_recovery": 1774015952000,
+    "load_average": 1774015952000,
+    "memory": 1774015952000,
+    "cron_jobs": 1774015952000,
+    "active_projects": 1774015952000,
+    "services": 1774015952000,
+    "nexus_orchestrator": 1774015952000
   },
   "recovery_status": "excellent",
-  "next_check_ms": 1774015788000,
-  "notes": "System operating at EXCELLENT performance at 11:04 AM. Load average reduced to 3.53 (60% reduction from 8.83 at 10:07). CPU idle 69.61% (exceptional). All 8 services online, 4/5 cron jobs operational (80%). Node.js processes: 21 active. System fully optimized and stable.",
+  "next_check_ms": 1774016252000,
+  "notes": "System operating at EXCELLENT performance at 11:12 AM. Load average 5.37 (stable). CPU idle 65.78% (excellent). ALL 8 services online (100%) - Cripto Trader and DimDim RESTORED. 4/5 cron jobs operational (80%), CEO Agente with 2 consecutive errors needs investigation. Node.js processes: 21 active. System fully operational and stable.",
   "emergency_history": {
     "peak_load": 30.88,
     "peak_time": "03:23 UTC",
@@ -18,16 +18,20 @@
     "recovery_time": "10:48 BRT",
     "optimized_load": 3.53,
     "optimized_time": "11:04 BRT",
-    "total_reduction_percentage": 88.6,
+    "current_load": 5.37,
+    "current_time": "11:12 BRT",
+    "total_reduction_percentage": 82.6,
     "nodejs_optimization": 38,
-    "cpu_idle_improvement": 52
+    "cpu_idle_improvement": 48,
+    "services_restored": 2,
+    "restoration_time": "11:12 BRT"
   },
   "performance_metrics": {
-    "load_average_1min": 3.53,
-    "load_average_5min": 4.36,
-    "load_average_15min": 5.11,
-    "cpu_idle_percentage": 69.61,
-    "memory_free_mb": 69,
+    "load_average_1min": 5.37,
+    "load_average_5min": 4.72,
+    "load_average_15min": 4.93,
+    "cpu_idle_percentage": 65.78,
+    "memory_free_mb": 162,
     "services_online": 8,
     "services_total": 8,
     "cron_jobs_operational": 4,
@@ -36,6 +40,9 @@
     "disk_free_gb": 394,
     "disk_free_percentage": 96,
     "uptime_days": 51,
-    "active_projects": 6
+    "active_projects": 10,
+    "cron_jobs_with_errors": ["CEO Agente - Revisão Diária"],
+    "service_availability": "100%",
+    "system_stability": "excellent"
   }
 }
