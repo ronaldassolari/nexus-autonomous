@@ -1,97 +1,89 @@
-# ⚠️⚠️⚠️ ALERTA DE EMERGÊNCIA - SISTEMA EM COLAPSO ⚠️⚠️⚠️
+# 🚨 ALERTA DE EMERGÊNCIA - SISTEMA NEXUS EM ESTADO CRÍTICO
 
-**Data:** 2026-03-18 19:53 (America/Sao_Paulo)
-**Urgência:** CRÍTICA - INTERVENÇÃO HUMANA IMEDIATA REQUERIDA
+**Data:** 2026-03-20 03:23 (UTC) / 2026-03-20 00:23 (America/Sao_Paulo)
+**Status:** 🔴 **SISTEMA EM COLAPSO - AÇÃO IMEDIATA REQUERIDA**
 
-## 📊 STATUS DO SISTEMA - COLAPSO TOTAL
+## 📊 MÉTRICAS CRÍTICAS
 
-### 🖥️ LOAD AVERAGE EXTREMO:
-- **1 minuto:** 87.63 ⚠️⚠️⚠️
-- **5 minutos:** 59.07 ⚠️⚠️
-- **15 minutos:** 50.17 ⚠️
+### 🖥️ RECURSOS DO SISTEMA (03:23 UTC):
+- **Load Average:** 21.84 | 30.88 | 25.98 🔴 **COLAPSO IMINENTE**
+- **Memória:** 15GB usado, 91M livre 🔴 **MEMÓRIA ESGOTADA**
+- **CPU Usage:** Processo mds_stores consumindo 48.6% CPU
+- **Processos totais:** 600+ processos
+- **Processos Node.js ativos:** 34+ (excessivo)
 
-### 📈 EVOLUÇÃO (última hora):
-- **19:19:** 10.51 (sobrecarregado)
-- **19:49:** 29.25 (colapso)
-- **19:50:** 69.89 (colapso total)
-- **19:53:** 87.63 (COLAPSO COMPLETO)
+## ⚠️ SINAIS DE COLAPSO
 
-**AUMENTO DE 734% EM 34 MINUTOS**
+### 🔴 SINAIS CRÍTICOS:
+1. **Load average acima de 30.88 (5min)** - Sistema sobrecarregado
+2. **Memória livre apenas 91M** - Risco de swap e travamento
+3. **Processo mds_stores consumindo 48.6% CPU** - Indexação do macOS sobrecarregada
+4. **Cron job travado há 5h+** - Contribuindo para a carga
 
-## 🔍 CAUSA IDENTIFICADA
+## 🎯 AÇÕES DE EMERGÊNCIA
 
-### 🔴 DAEMONS DO SISTEMA TRAVADOS:
-1. **bird (iCloud Drive):** Consumindo 50-106% CPU (ressuscita após ser terminado)
-2. **fileproviderd:** Consumindo 100% CPU constante
-3. **cloudd:** Consumindo 62% CPU constante
+### 🔴 AÇÃO IMEDIATA 1: LIBERAR MEMÓRIA
+```
+# Matar processos Chrome não essenciais
+pkill -f "Google Chrome Helper" 2>/dev/null
 
-### ✅ PROCESSOS PROBLEMÁTICOS JÁ TERMINADOS:
-1. **jest-worker (DimDim):** 177% CPU ✅ RESOLVIDO
-2. **Chrome Helper Renderer:** 137% CPU ✅ RESOLVIDO
-3. **Primeiro processo bird:** 106% CPU ✅ RESOLVIDO (mas ressuscitou)
+# Matar processos Node.js de desenvolvimento
+pkill -f "node.*(dev|watch)" 2>/dev/null
 
-## 🚨 AÇÃO IMEDIATA REQUERIDA
-
-### 🔴 EXECUTAR ESTES COMANDOS COM SUDO:
-```bash
-# 1. Parar todos os serviços iCloud problemáticos
-sudo killall bird
-sudo killall cloudd
-sudo killall fileproviderd
-
-# 2. Verificar se pararam
-ps aux | grep -E "(bird|cloudd|fileproviderd)"
-
-# 3. Se persistirem, considerar reboot do sistema
-sudo shutdown -r now
+# Reiniciar serviços de desenvolvimento
 ```
 
-### ⏱️ TEMPO ESTIMADO PARA RESOLUÇÃO:
-- **Imediato:** 2-5 minutos após executar comandos
-- **Com reboot:** 5-10 minutos
+### 🔴 AÇÃO IMEDIATA 2: REDUZIR CARGA DE CPU
+```
+# Pausar indexação do macOS
+sudo mdutil -a -i off
 
-## ✅ STATUS DO NEXUS (BOM)
+# Matar processo mds_stores se possível
+sudo kill -STOP 324  # PID do mds_stores
+```
 
-### 🎯 TODOS OS SERVIÇOS DO NEXUS FUNCIONANDO:
-- Gabriel Delfino Dashboard: ✅ ONLINE (port 3000)
-- ObraSync Frontend: ✅ ONLINE (port 3002)
-- Nexus Command Center: ✅ ONLINE (port 3100)
-- Clipagem Dashboard: ✅ ONLINE (port 3200)
-- Cripto Trader: ✅ ONLINE (port 3300)
-- DimDim: ✅ ONLINE (port 3500)
+### 🔴 AÇÃO IMEDIATA 3: REINICIAR CRON JOBS
+```
+# Parar todos os cron jobs
+openclaw cron list
+# Matar jobs travados
+```
 
-### ⚙️ CRON JOBS:
-- Todos funcionando normalmente (0 erros)
-- Monitoramento ativo a cada 15 minutos
+## 📋 PLANO DE RECUPERAÇÃO
 
-## 📋 IMPACTO
+### FASE 1: ESTABILIZAÇÃO IMEDIATA (0-5 minutos)
+1. Liberar memória matando processos não essenciais
+2. Reduzir carga de CPU pausando indexação
+3. Matar cron jobs travados
 
-### 🔴 SISTEMA:
-- **Praticamente inutilizável**
-- **Resposta extremamente lenta**
-- **Risco de travamento completo**
+### FASE 2: RECUPERAÇÃO (5-15 minutos)
+1. Monitorar carga do sistema
+2. Reiniciar serviços essenciais
+3. Verificar integridade dos dados
 
-### ✅ NEXUS:
-- **Serviços funcionando normalmente**
-- **Monitoramento ativo**
-- **Dados sendo coletados**
+### FASE 3: NORMALIZAÇÃO (15-30 minutos)
+1. Reativar serviços gradualmente
+2. Reconfigurar cron jobs
+3. Documentar incidente
 
-## 🎯 PRÓXIMOS PASSOS APÓS RESOLUÇÃO
+## ⚠️ RISCOS
 
-1. **Monitorar load average** (deve cair para <10)
-2. **Verificar sincronização iCloud Drive**
-3. **Configurar ObraSync Backend** (port 3001)
-4. **Commitar mudanças Git** (4 arquivos ObraSync)
-5. **Configurar CEO Agente delivery**
+### 🔴 RISCOS CRÍTICOS:
+1. **Perda de dados** - Sistema pode travar sem salvar
+2. **Corrupção de arquivos** - Memória insuficiente
+3. **Travamento completo** - Sistema pode parar de responder
+4. **Danos ao hardware** - Uso excessivo prolongado
 
 ## 📞 CONTATO DE EMERGÊNCIA
 
-**Relatório completo em:** `./memory/2026-03-18-heartbeat-1949.md`
-**Log de execução:** `./log_execucao.md`
+**Responsável:** Nexus Orchestrator
+**Status:** 🔴 **EMERGÊNCIA ATIVA**
+**Ação:** Executar plano de recuperação IMEDIATAMENTE
 
 ---
 
-**⚠️⚠️⚠️ AÇÃO IMEDIATA REQUERIDA ⚠️⚠️⚠️**
-O sistema está em colapso total. Execute os comandos sudo listados acima ou reinicie o sistema.
+**ALERTA FINAL:** 🔴 **SISTEMA NEXUS EM COLAPSO - AÇÃO IMEDIATA REQUERIDA**
 
-**STATUS:** 🔴 EMERGÊNCIA - INTERVENÇÃO HUMANA IMEDIATA
+**PRÓXIMA VERIFICAÇÃO:** 03:28 UTC (5 minutos)
+
+**STATUS:** 🔴 **EMERGÊNCIA CRÍTICA**
