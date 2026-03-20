@@ -1,16 +1,16 @@
 # HEARTBEAT.md - Nexus Orchestrator Prioridades
 
-## ✅ STATUS ATUAL (09:50 AM - 20/03/2026) ✅ SISTEMA 100% RECUPERADO - OPERACIONAL
-- **Carga do sistema:** 8.13 (1min) - **ESTÁVEL** ✅
-- **Serviços Nexus:** ✅ 8/8 ONLINE (100%) ✅ **RECUPERADOS**
-- **Cron jobs:** ✅ 5/5 ATIVOS (4 ok, 1 com erro) ✅ **RECUPERADOS**
-- **Discord Monitor:** ✅ REATIVADO (ok, próxima execução: in 6m)
-- **Git status:** ✅ COMMITADO (commit 0d99917)
-- **CPU idle:** 69.72% (aceitável) ✅
-- **Uptime:** 51 dias, 22:10 (estável) ✅
-- **Processos Node.js:** Normalizados com serviços ativos ✅
+## ⚠️ STATUS ATUAL (09:40 AM - 20/03/2026) ⚠️ SISTEMA OPERACIONAL COM CARGA ELEVADA DO macOS
+- **Carga do sistema:** 21.60 (1min) - **ALTA CARGA DO macOS** ⚠️
+- **Serviços Nexus:** ✅ 8/8 ONLINE (100%) ✅ **OPERACIONAIS**
+- **Cron jobs:** ✅ 5/5 ATIVOS (4 ok, 1 com erro) ✅ **OPERACIONAIS**
+- **Discord Monitor:** ✅ FUNCIONANDO (ok, próxima execução: in 3m)
+- **Git status:** ✅ COMMITADO (commit 0936afa)
+- **CPU idle:** 64.81% (aceitável) ✅
+- **Uptime:** 51 dias, 21:59 (estável) ✅
+- **Processos Node.js:** 20 ativos (normal) ✅
 - **Espaço em disco:** 391GB livre (96% disponível) ✅
-- **Diagnóstico:** Sistema Nexus 100% recuperado, todos serviços online, cron jobs reativados, intervenção bem-sucedida
+- **Diagnóstico:** Sistema Nexus 100% operacional, alta carga causada por processos macOS (fileproviderd 86%, cloudd 62%, bird 20%), serviços Nexus funcionando normalmente
 
 ## 🚨 PRIORIDADES CRÍTICAS (Verificar a cada heartbeat)
 
