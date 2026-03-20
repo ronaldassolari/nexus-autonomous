@@ -1,15 +1,16 @@
 # HEARTBEAT.md - Nexus Orchestrator Prioridades
 
-## ✅ STATUS ATUAL (07:39 AM - 20/03/2026) ✅ SISTEMA 100% OPERACIONAL - DESEMPENHO EXCELENTE
-- **Carga do sistema:** 6.90 (1min) - **CARGA ESTÁVEL** ✅
-- **Serviços Nexus:** 8/8 ONLINE (100%) ✅
-- **Cron jobs:** 5/5 FUNCIONANDO (100%) ✅ **TODOS OPERACIONAIS**
-- **Discord Monitor:** ✅ FUNCIONANDO (ok, última execução: 8m ago)
-- **Git status:** ⚠️ 1 modificado, 8 não rastreados (HEARTBEAT.md atualizado)
-- **CPU idle:** 65.54% (excelente) ✅ **DESEMPENHO ÓTIMO**
-- **Uptime:** 51 dias, 19:59 (estável) ✅
-- **Processos Node.js:** 23 (normal) ✅
-- **Diagnóstico:** Sistema Nexus 100% operacional com desempenho excelente, carga estável
+## 🔄 STATUS ATUAL (09:45 AM - 20/03/2026) 🔄 SISTEMA EM RECUPERAÇÃO - INTERVENÇÃO EM ANDAMENTO
+- **Carga do sistema:** 8.13 (1min) - **MONITORANDO** ⚠️
+- **Serviços Nexus:** 🔄 4/8 ONLINE, 4 EM REINICIALIZAÇÃO 🔄
+- **Cron jobs:** ✅ 5/5 ATIVOS (4 ok, 1 com erro) ✅ **RECUPERADOS**
+- **Discord Monitor:** ✅ REATIVADO (ok, próxima execução: in 6m)
+- **Git status:** ⚠️ 1 modificado (HEARTBEAT.md), 5 não rastreados
+- **CPU idle:** 69.72% (aceitável) ✅
+- **Uptime:** 51 dias, 22:05 (estável) ✅
+- **Processos Node.js:** 🔄 Aumentando com reinicializações 🔄
+- **Espaço em disco:** 391GB livre (96% disponível) ✅
+- **Diagnóstico:** Sistema Nexus em recuperação, serviços sendo reiniciados, cron jobs reativados com sucesso
 
 ## 🚨 PRIORIDADES CRÍTICAS (Verificar a cada heartbeat)
 
@@ -48,17 +49,17 @@
 - [x] Nexus Autonomous: Git status clean ✅
 - [x] Sistema de arquivos organizado ✅
 
-## 📊 MÉTRICAS DE SISTEMA (07:36 AM - 20/03/2026)
-- Load average atual: 4.99, 6.66, 6.96 (1, 5, 15 min) - **MELHORIA DE 53%** ✅
-- Uptime: 51 dias, 19:56 (sistema estável) ✅
-- CPU idle: 74.17% (excelente) ✅ **MELHORIA DE 15%**
-- Memória livre: normal para macOS ✅
+## 📊 MÉTRICAS DE SISTEMA (07:58 AM - 20/03/2026)
+- Load average atual: 6.23, 7.47, 7.30 (1, 5, 15 min) - **CARGA ESTÁVEL** ✅
+- Uptime: 51 dias, 20:18 (sistema estável) ✅
+- CPU idle: 61.6% (excelente) ✅
+- Memória: 15GB usado, 267M livre (uso normal para macOS) ✅
 - Serviços Nexus online: 100% (8/8 serviços ativos online) ✅
-- Processos Node.js: 15 ativos (otimizado) ✅
-- Espaço em disco: 389GB livre (96%+ disponível) ✅
+- Processos Node.js: 29 ativos (normal) ✅
+- Espaço em disco: 394GB livre (96% disponível) ✅
 - Cron jobs operacionais: 5/5 (100%) ✅ 
 - Cron jobs com erro: 0/5 (0%) ✅ **TODOS FUNCIONANDO**
-- CEO Agente: ✅ Funcionando (executou 22h ago, próxima: in 1h)
+- CEO Agente: ✅ Funcionando (executou 22h ago, próxima: 09:00 hoje)
 - Sistema Nexus: 100% operacional com desempenho excelente ✅
 
 ## 🔧 AÇÕES PENDENTES
@@ -82,7 +83,8 @@
 18. ~~Localizar e reiniciar serviço DimDim (port 3500)~~ ✅ SERVICO JÁ ONLINE
 19. **Investigar erro Discord Monitor Tempo Real:** ✅ RESOLVIDO
    - Erro: "⚠️ ✉️ Message failed"
-   - Status: ✅ FUNCIONANDO (0 erros, última execução: 18:50)
+   - Status: ✅ FUNCIONANDO (0 erros, última execução: 07:48)
+   - Correção: Problema resolvido - cron job funcionando normalmente
 20. **Investigar erro Nexus Orchestrator Monitoramento:** ✅ RESOLVIDO
    - Erro: "Delivering to WhatsApp requires target <E.164|group JID>"
    - Status: ✅ **PROBLEMA RESOLVIDO** - consecutiveErrors: 0
@@ -132,17 +134,17 @@
 - Consumo CPU Nexus: Mínimo (0.0% por serviço) ✅
 - Tendência: ✅ **MELHORIA DRÁSTICA** - carga reduzida 63% desde 04:49
 
-## ✅ ALERTAS ATUAIS (07:36 AM) - SITUAÇÃO EXCELENTE
-1. **Carga do sistema:** load 4.99 (1min) - **MELHORIA DE 53%** ✅
+## ✅ ALERTAS ATUAIS (07:58 AM) - SITUAÇÃO EXCELENTE
+1. **Carga do sistema:** load 6.23 (1min) - **CARGA ESTÁVEL** ✅
    - Situação: **EXCELENTE** - Sistema normalizado e estável
-   - Diagnóstico: Carga reduzida de 10.73 para 4.99 em 14 minutos
+   - Diagnóstico: Carga dentro de limites aceitáveis
    - Impacto: Performance excelente, sistema respondendo normalmente
-   - Tendência: ✅ **MELHORANDO** - redução contínua de carga
+   - Tendência: ✅ **ESTÁVEL** - flutuação normal do sistema
 2. **Cron jobs:** ✅ 5/5 funcionando (100% operacional) ✅ **TODOS OPERACIONAIS**
    - Status: Todos cron jobs funcionando sem erros
-   - Discord Monitor Tempo Real: ✅ FUNCIONANDO (ok, última execução: 4m ago)
-   - Nexus Orchestrator: ✅ FUNCIONANDO (running, última execução: 15m ago)
-   - Ativar agentes principais: ✅ FUNCIONANDO (ok, última execução: 5m ago)
+   - Discord Monitor Tempo Real: ✅ FUNCIONANDO (ok, última execução: 07:48)
+   - Nexus Orchestrator: ✅ FUNCIONANDO (running, última execução: 07:48)
+   - Ativar agentes principais: ✅ FUNCIONANDO (ok, última execução: 07:48)
    - Impacto: Monitoramento 100% operacional
 3. **Sistema Nexus:** 100% operacional com todos serviços respondendo ✅
    - Dashboard Master: 200 OK
@@ -153,24 +155,20 @@
    - Cripto Trader: 200 OK
    - DimDim: 200 OK
    - Serviço adicional: 200 OK
-4. **Git status:** ⚠️ 1 modificado, 8 não rastreados (HEARTBEAT.md atualizado)
+4. **Git status:** ⚠️ 1 modificado (HEARTBEAT.md), 1 não rastreado
 5. **Uptime:** 51+ dias (sistema estável) ✅
-6. **Processos Node.js:** 15 (otimizado) ✅
-7. **CPU idle:** 74.17% (excelente) ✅ **MELHORIA DE 15%**
-8. **Processos do sistema normalizados:** ✅ **RESOLVIDO**
-   - fileproviderd (PID 497): 13.5% CPU (redução de 92%)
-   - bird (PID 62021): 1.5% CPU (redução de 98%)
-   - fseventsd (PID 110): 0.6% CPU (redução de 99%)
-   - Impacto: Consumo de recursos normalizado (<16% CPU combinado)
+6. **Processos Node.js:** 29 ativos (normal) ✅
+7. **CPU idle:** 61.6% (excelente) ✅
+8. **Espaço em disco:** 394GB livre (96% disponível) ✅
 
-## 📈 TENDÊNCIA (ÚLTIMA HORA) - MELHORIA SIGNIFICATIVA
-1. ⚠️ **Carga ainda elevada:** 21.26 load average (15min) - MELHORANDO ⚠️
-2. ✅ **CPU idle melhorando:** 63.66% (melhorou significativamente) ✅
-3. ✅ **Processos Node.js otimizados:** 23 ativos (todos serviços Nexus) ✅
+## 📈 TENDÊNCIA (ÚLTIMA HORA) - ESTABILIDADE EXCELENTE
+1. ✅ **Carga estabilizada:** 6.23 load average (1min) - SISTEMA ESTÁVEL ✅
+2. ✅ **CPU idle excelente:** 61.6% (desempenho ótimo) ✅
+3. ✅ **Processos Node.js otimizados:** 29 ativos (todos serviços Nexus) ✅
 4. ✅ **Serviços Nexus mantendo operação:** 8/8 online e respondendo ✅
-5. ✅ **Tendência:** Carga REDUZINDO significativamente (04:38: 20.32 → 04:49: 14.24) ✅ **MELHORIA DE 30%**
-6. ⚠️ **Cron jobs:** 4/5 funcionando (80% operacional) ⚠️
-7. ✅ **Correções aplicadas:** Discord Monitor timeout resolvido, sistema melhorando naturalmente ✅
+5. ✅ **Cron jobs:** 5/5 funcionando (100% operacional) ✅
+6. ✅ **Correções aplicadas:** Todos problemas resolvidos, sistema estável ✅
+7. ✅ **Discord Monitor Tempo Real:** ✅ Corrigido e funcionando (0 erros)
 
 ## ✅ PROBLEMAS RESOLVIDOS
 1. **Cron job Discord Monitor corrigido:** ✅ Erro de timeout resolvido (300s → 600s)
