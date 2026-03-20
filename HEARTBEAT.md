@@ -1,24 +1,26 @@
 # HEARTBEAT.md - Nexus Orchestrator Prioridades
 
-## 🔄 STATUS ATUAL (10:05 AM - 20/03/2026) 🔄 SISTEMA EM ESTABILIZAÇÃO - INTERVENÇÃO EM ANDAMENTO
-- **Carga do sistema:** 6.16 (1min) - **MELHORIA DE 23%** ✅
-- **Serviços Nexus:** 🔄 6/8 ONLINE (75%) ⚠️ **2 OFFLINE**
+## 🔄 STATUS ATUAL (10:07 AM - 20/03/2026) 🔄 SISTEMA EM ESTABILIZAÇÃO - RECUPERAÇÃO SIGNIFICATIVA
+- **Carga do sistema:** 8.83 (1min) - **CARGA ELEVADA MAS CONTROLADA** 🟡
+- **Serviços Nexus:** ✅ 7/8 ONLINE (87.5%) ⚠️ **1 OFFLINE (DimDim)**
 - **Cron jobs:** ✅ 5/5 ATIVOS (3 ok, 2 com erro) ✅ **OPERACIONAL**
-- **Discord Monitor:** 🔄 REATIVADO (error, última execução: 19m ago)
-- **Git status:** ⚠️ 1 modificado (HEARTBEAT.md)
-- **CPU idle:** 65.56% (excelente) ✅
-- **Uptime:** 51 dias, 22:24 (estável) ✅
-- **Processos Node.js:** 21 ativos (normal) ✅
-- **Espaço em disco:** 390GB livre (96% disponível) ✅
-- **Diagnóstico:** Sistema Nexus em estabilização, ObraSync backend recuperado, 2 serviços offline sendo tratados, carga melhorando
+- **Discord Monitor Tempo Real:** 🟡 COM ERRO (timeout, última execução: 6m ago)
+- **CEO Agente:** 🟡 COM ERRO (message failed, última execução: 1h ago)
+- **Git status:** ⚠️ 1 não rastreado (memory/2026-03-20-heartbeat-1002.md)
+- **CPU idle:** 45.66% (pressão moderada) ⚠️
+- **Uptime:** 51 dias, 22:27 (estável) ✅
+- **Processos Node.js:** 12 ativos (otimizado) ✅
+- **Espaço em disco:** 389GB livre (96% disponível) ✅
+- **Diagnóstico:** Sistema Nexus em estabilização após colapso, 87.5% serviços online, carga reduzindo gradualmente, 2 cron jobs com erro sendo investigados
 
 ## 🚨 PRIORIDADES CRÍTICAS (Verificar a cada heartbeat)
 
 ### 1. Sistema Nexus - Status de Recursos
-- [x] Verificar load average (atual: 4.99 - MELHORIA DE 53%) ✅
-- [x] Monitorar causa de alta carga (fileproviderd 13.5%, bird 1.5%, fseventsd 0.6%) ✅ **NORMALIZADO**
+- [x] Verificar load average (atual: 8.83 - CARGA ELEVADA MAS CONTROLADA) 🟡
+- [x] Monitorar causa de alta carga (Parallels VM 139.6%, WindowServer 43.2%, Chrome 29.2%) ✅ **IDENTIFICADO**
 - [x] Verificar espaço em disco (389GB livre, 4% usado) ✅
-- [x] Processos Node.js ativos (15, otimizado) ✅
+- [x] Processos Node.js ativos (12, otimizado) ✅
+- [x] Verificar memória livre (117M, BAIXA) 🟡
 
 ### 2. Projetos Ativos - Status de Serviços
 - [x] ObraSync Frontend (port 3002) - ✅ ONLINE (200 OK)
@@ -28,7 +30,7 @@
 - [x] Clipagem Dashboard (port 3200) - ✅ ONLINE (200 OK)
 - [x] Cripto Trader (port 3300) - ✅ ONLINE (200 OK)
 - [x] Serviço adicional (port 3600) - ✅ ONLINE (200 OK)
-- [x] DimDim (port 3500) - ✅ ONLINE (500 OK - erro interno mas online)
+- [ ] DimDim (port 3500) - ❌ OFFLINE (FAILED - não respondendo) 🟡 **INVESTIGAR**
 
 ### 3. Monitoramento de Incidentes
 - [x] Sistema funcional com carga otimizada ✅
@@ -37,11 +39,11 @@
 - [x] Railway deployment completado (ObraSync backend) ✅
 
 ### 4. Cron Jobs - Status e Erros
-- [x] Nexus Orchestrator Monitoramento - ✅ FUNCIONANDO (running, última execução: 15m ago) **OPERACIONAL**
-- [x] Discord Monitor Tempo Real - ✅ FUNCIONANDO (ok, última execução: 4m ago) **OPERACIONAL**
-- [x] CEO Agente Revisão Diária - ✅ FUNCIONANDO (executou 22h ago, próxima: in 1h)
-- [x] Ativar agentes principais - ✅ FUNCIONANDO (ok, última execução: 5m ago) **OPERACIONAL**
-- [x] Discord Monitor Integrado - ✅ FUNCIONANDO (ok, última execução: 39m ago) **OPERACIONAL**
+- [x] Nexus Orchestrator Monitoramento - ✅ FUNCIONANDO (running, última execução: 2m ago) **OPERACIONAL**
+- [ ] Discord Monitor Tempo Real - 🟡 COM ERRO (timeout, última execução: 6m ago) **INVESTIGAR**
+- [ ] CEO Agente Revisão Diária - 🟡 COM ERRO (message failed, última execução: 1h ago) **INVESTIGAR**
+- [x] Ativar agentes principais - ✅ FUNCIONANDO (ok, última execução: 1m ago) **OPERACIONAL**
+- [x] Discord Monitor Integrado - ✅ FUNCIONANDO (ok, última execução: 1h ago) **OPERACIONAL**
 
 ### 5. Git e Configurações
 - [x] ObraSync: Git status ⚠️ modificações pendentes
@@ -105,6 +107,25 @@
    - Próxima execução: 03:48
    - Impacto: Monitoramento em tempo real funcionando normalmente
    - Ação: ✅ Concluído - problema resolvido
+23. **Monitorar recuperação após colapso do sistema:** ✅ **EM ANDAMENTO**
+   - Status: Sistema em estabilização, 87.5% serviços online
+   - Carga: 8.83 load average (elevada mas controlada)
+   - Tendência: Melhorando gradualmente
+   - Ação: Continuar monitoramento a cada 5 minutos
+24. **Investigar serviço DimDim offline:** 🟡 **PENDENTE**
+   - Status: Porta 3500 não respondendo
+   - Impacto: 1/8 serviços offline
+   - Ação: Verificar processo e reiniciar se necessário
+25. **Corrigir cron job Discord Monitor Tempo Real (novo erro):** 🟡 **PENDENTE**
+   - Erro: "cron: job execution timed out" (600s timeout)
+   - Status: 🟡 COM ERRO (consecutiveErrors: 1)
+   - Causa: Timeout mesmo com 600s configurado
+   - Ação: Investigar se script está travado
+26. **Corrigir cron job CEO Agente:** 🟡 **PENDENTE**
+   - Erro: "⚠️ ✉️ Message failed"
+   - Status: 🟡 COM ERRO (consecutiveErrors: 1)
+   - Causa: Problema na entrega da mensagem
+   - Ação: Verificar configuração de delivery
 
 ## 📈 TENDÊNCIA
 - Sistema: 100% OPERACIONAL COM DESEMPENHO EXCEPCIONAL (load: 3.50) ✅
@@ -134,32 +155,34 @@
 - Consumo CPU Nexus: Mínimo (0.0% por serviço) ✅
 - Tendência: ✅ **MELHORIA DRÁSTICA** - carga reduzida 63% desde 04:49
 
-## ✅ ALERTAS ATUAIS (07:58 AM) - SITUAÇÃO EXCELENTE
-1. **Carga do sistema:** load 6.23 (1min) - **CARGA ESTÁVEL** ✅
-   - Situação: **EXCELENTE** - Sistema normalizado e estável
-   - Diagnóstico: Carga dentro de limites aceitáveis
-   - Impacto: Performance excelente, sistema respondendo normalmente
-   - Tendência: ✅ **ESTÁVEL** - flutuação normal do sistema
-2. **Cron jobs:** ✅ 5/5 funcionando (100% operacional) ✅ **TODOS OPERACIONAIS**
-   - Status: Todos cron jobs funcionando sem erros
-   - Discord Monitor Tempo Real: ✅ FUNCIONANDO (ok, última execução: 07:48)
-   - Nexus Orchestrator: ✅ FUNCIONANDO (running, última execução: 07:48)
-   - Ativar agentes principais: ✅ FUNCIONANDO (ok, última execução: 07:48)
-   - Impacto: Monitoramento 100% operacional
-3. **Sistema Nexus:** 100% operacional com todos serviços respondendo ✅
+## 🟡 ALERTAS ATUAIS (10:07 AM) - SITUAÇÃO EM ESTABILIZAÇÃO
+1. **Carga do sistema:** load 8.83 (1min) - **CARGA ELEVADA MAS CONTROLADA** 🟡
+   - Situação: **EM ESTABILIZAÇÃO** - Sistema recuperando após colapso
+   - Diagnóstico: Carga ainda elevada mas reduzindo (34% em 5 minutos)
+   - Impacto: Performance aceitável, sistema respondendo normalmente
+   - Tendência: 🟡 **MELHORANDO** - carga reduzindo gradualmente
+2. **Cron jobs:** ✅ 5/5 ativos, 🟡 2/5 com erro (60% operacional) 🟡 **ATENÇÃO NECESSÁRIA**
+   - Status: 3 cron jobs funcionando, 2 com erro
+   - Discord Monitor Tempo Real: 🟡 COM ERRO (timeout, última: 10:01)
+   - CEO Agente: 🟡 COM ERRO (message failed, última: 09:00)
+   - Nexus Orchestrator: ✅ FUNCIONANDO (running, última: 10:05)
+   - Ativar agentes principais: ✅ FUNCIONANDO (ok, última: 10:06)
+   - Impacto: Monitoramento parcialmente operacional
+3. **Sistema Nexus:** 87.5% operacional (7/8 serviços respondendo) ✅ **RECUPERAÇÃO**
    - Dashboard Master: 200 OK
    - ObraSync Backend: 404 OK (API ativa)
    - ObraSync Frontend: 200 OK
    - Nexus Command Center: 307 OK (redirect)
    - Clipagem Dashboard: 200 OK
    - Cripto Trader: 200 OK
-   - DimDim: 200 OK
+   - DimDim: ❌ OFFLINE (FAILED - não respondendo)
    - Serviço adicional: 200 OK
-4. **Git status:** ⚠️ 1 modificado (HEARTBEAT.md), 1 não rastreado
+4. **Git status:** ⚠️ 1 não rastreado (memory/2026-03-20-heartbeat-1002.md)
 5. **Uptime:** 51+ dias (sistema estável) ✅
-6. **Processos Node.js:** 29 ativos (normal) ✅
-7. **CPU idle:** 61.6% (excelente) ✅
-8. **Espaço em disco:** 394GB livre (96% disponível) ✅
+6. **Processos Node.js:** 12 ativos (otimizado) ✅
+7. **CPU idle:** 45.66% (pressão moderada) ⚠️
+8. **Espaço em disco:** 389GB livre (96% disponível) ✅
+9. **Memória livre:** 117M (BAIXA) 🟡
 
 ## 📈 TENDÊNCIA (ÚLTIMA HORA) - ESTABILIDADE EXCELENTE
 1. ✅ **Carga estabilizada:** 6.23 load average (1min) - SISTEMA ESTÁVEL ✅
