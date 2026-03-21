@@ -1,7 +1,7 @@
 # HEARTBEAT.md - Nexus Orchestrator Prioridades
 
-## 🔄 STATUS ATUAL (01:53 AM - 21/03/2026) 🔄 SISTEMA NEXUS 87.5% OPERACIONAL - INTERVENÇÃO RÁPIDA
-- **Carga do sistema:** 4.00 (1min) - **CARGA OTIMIZADA** ✅ **31% REDUÇÃO vs 01:50**
+## 🔄 STATUS ATUAL (02:19 AM - 21/03/2026) 🔄 SISTEMA NEXUS 87.5% OPERACIONAL - INTERVENÇÃO RÁPIDA
+- **Carga do sistema:** 2.93 (1min) - **CARGA OTIMIZADA** ✅ **27% REDUÇÃO vs 01:53**
 - **Serviços Nexus:** ✅ 7/8 ONLINE (87.5%) ⚠️ **1 OFFLINE**
 - **Cron jobs:** ✅ 5/5 ATIVOS (4 ok, 1 running) ✅ **5/5 FUNCIONANDO**
 - **Discord Monitor Tempo Real:** ✅ FUNCIONANDO (próxima execução: ~5m)
@@ -17,7 +17,7 @@
 - **ObraSync desenvolvimento:** ✅ Ativo (backend e frontend online, 97.5% features, Railway deploy completo)
 - **DimDim desenvolvimento:** ✅ Ativo e online com 404 OK (melhor que 500 OK)
 - **Documentação:** ✅ 4 arquivos de status criados (separados do HEARTBEAT.md)
-- **Diagnóstico:** Sistema Nexus com 7/8 serviços online, carga otimizada (4.00), Clipagem Dashboard sendo reiniciado, DimDim recuperado com 404 OK (melhor que 500 OK), cron jobs 5/5 ativos (5/5 funcionando), intervenção rápida em andamento
+- **Diagnóstico:** Sistema Nexus com 7/8 serviços online, carga otimizada (2.93), Cripto Trader sendo reiniciado, Clipagem Dashboard recuperado com 200 OK, cron jobs 5/5 ativos (5/5 funcionando), intervenção rápida em andamento
 
 ## 🚨 PRIORIDADES CRÍTICAS (Verificar a cada heartbeat)
 
