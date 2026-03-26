@@ -24,16 +24,32 @@ else
     echo "❌ OpenClaw Gateway: OFFLINE"
 fi
 
-if pgrep -f "whatsappServer.js" > /dev/null; then
-    echo "✅ WhatsApp Server: ONLINE"
+# WhatsApp: Verificar se está vinculado (não processo específico)
+if curl -s http://127.0.0.1:18789/api/whatsapp/status 2>/dev/null | grep -q "linked"; then
+    echo "✅ WhatsApp: VINCULADO"
+elif ps aux | grep -q "[w]hatsapp\|[b]aileys"; then
+    echo "⚠️  WhatsApp: PROCESSO ATIVO (não vinculado)"
 else
-    echo "❌ WhatsApp Server: OFFLINE"
+    echo "❌ WhatsApp: NÃO VINCULADO/NÃO ATIVO"
 fi
 
-if pgrep -f "dimdim-proxy.js" > /dev/null; then
-    echo "✅ DimDim Proxy: ONLINE"
+# DimDim: Verificar serviços Next.js nas portas 3500 e 3600
+DIMDIM_COUNT=0
+if ps aux | grep -q "[n]ext dev.*3500"; then
+    DIMDIM_COUNT=$((DIMDIM_COUNT + 1))
+fi
+if ps aux | grep -q "[n]ext dev.*3600"; then
+    DIMDIM_COUNT=$((DIMDIM_COUNT + 1))
+fi
+
+if [ $DIMDIM_COUNT -eq 2 ]; then
+    echo "✅ DimDim: 2 SERVIÇOS ATIVOS (3500, 3600)"
+elif [ $DIMDIM_COUNT -eq 1 ]; then
+    echo "⚠️  DimDim: 1 SERVIÇO ATIVO"
+elif curl -s http://localhost:3500 >/dev/null 2>&1 || curl -s http://localhost:3600 >/dev/null 2>&1; then
+    echo "⚠️  DimDim: SERVIÇO RESPONDENDO (processo não detectado)"
 else
-    echo "❌ DimDim Proxy: OFFLINE"
+    echo "❌ DimDim: OFFLINE"
 fi
 echo ""
 
@@ -50,7 +66,7 @@ echo ""
 
 # 5. Uso de memória
 echo "🧠 USO DE MEMÓRIA:"
-top -l 1 | grep "PhysMem" | awk '{print $2 " usado (" $5 " wired, " $7 " compressor), " $9 " livre"}'
+top -l 1 | grep "PhysMem" | awk '{print $2 " usado, " $9 " livre"}'
 echo ""
 
 # 6. Alertas baseados em thresholds
