@@ -21,7 +21,20 @@ log_crisis() {
 # Função para verificar limite de terminações
 check_termination_limit() {
     local current_hour=$(date '+%Y-%m-%d %H')
-    local terminations_this_hour=$(grep -c "CRISE: bird terminado.*$(echo "$current_hour" | cut -c12-13):" "$LOG_FILE" 2>/dev/null || echo 0)
+    local hour_part=$(echo "$current_hour" | cut -c12-13)
+    local terminations_this_hour=0
+    
+    # Verificar se o arquivo de log existe
+    if [ -f "$LOG_FILE" ]; then
+        terminations_this_hour=$(grep -c "CRISE: bird terminado.*${hour_part}:" "$LOG_FILE" 2>/dev/null)
+        # Se grep falhar ou não encontrar nada, terminations_this_hour será vazio
+        if [ -z "$terminations_this_hour" ]; then
+            terminations_this_hour=0
+        fi
+    fi
+    
+    # Converter para inteiro (remover espaços)
+    terminations_this_hour=$(echo "$terminations_this_hour" | tr -d '[:space:]')
     
     if [ "$terminations_this_hour" -ge "$MAX_TERMINATIONS_PER_HOUR" ]; then
         echo "[$(date '+%Y-%m-%d %H:%M:%S')] ALERTA: Limite de $MAX_TERMINATIONS_PER_HOUR terminações por hora atingido. Aguardando próximo ciclo." >> "$LOG_FILE"

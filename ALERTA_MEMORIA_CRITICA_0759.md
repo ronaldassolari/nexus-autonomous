@@ -1,13 +1,13 @@
 # ALERTA DE MEMÓRIA CRÍTICA
-**Data/Hora:** 26/03/2026 - 07:59  
-**Memória Livre:** 80MB  
+**Data/Hora:** 30/03/2026 - 07:59  
+**Memória Livre:** 46MB  
 **Limite:** 100MB  
-**Nível:** 🟠 ALTO
+**Nível:** 🔴 CRÍTICO
 
 ## STATUS DO SISTEMA
 - **Load Avg (1min):** 
-- **Photolibraryd CPU:** 69.6%
-- **Ação Recomendada:** AÇÃO CORRETIVA NECESSÁRIA
+- **Photolibraryd CPU:** 0.0%
+- **Ação Recomendada:** INTERVENÇÃO IMEDIATA REQUERIDA
 
 ## AÇÕES IMEDIATAS
 1. Verificar scripts de contenção
@@ -22,4 +22,4 @@
 
 ---
 **Gerado por:** Nexus Orchestrator - Alerta de Memória  
-**Status:** 🟠 ALTO
+**Status:** 🔴 CRÍTICO

@@ -1,227 +1,259 @@
-# COORDENAÇÃO DE EQUIPAS NEXUS - 18:54 BRT
-
-## 📋 RESUMO EXECUTIVO
-
-**STATUS:** 🟢 SISTEMA ESTÁVEL COM RECUPERAÇÃO COMPLETA  
-**PRIORIDADE:** RESTAURAR SERVIÇOS OFFLINE  
-**PRÓXIMA VERIFICAÇÃO:** 19:00 BRT
-
-## 🎯 SITUAÇÃO ATUAL
-
-### ✅ CONQUISTAS (ÚLTIMA HORA):
-1. **Recuperação Completa** da crise de carga extrema (25.25 → 1.59)
-2. **Memória Melhorada** significativamente (72 MB → 151 MB livres)
-3. **CPU Mantido Excelente** (84.15% idle)
-4. **Todos Projetos Ativos** operacionais (4/4)
-5. **Cron Jobs** funcionando normalmente (6/6)
-
-### ⚠️ PONTOS DE ATENÇÃO:
-1. **WhatsApp Server OFFLINE** - requer intervenção URGENTE
-2. **DimDim Proxy OFFLINE** - requer verificação
-3. **Memória Comprimida Alta** (5146 MB) - monitorar
-
-## 👥 EQUIPAS E RESPONSABILIDADES
-
-### 🏗️ EQUIPA DE INFRAESTRUTURA (SQUAD 1):
-- **Responsável:** Manutenção do sistema Nexus
-- **Status:** ✅ OPERACIONAL
-- **Tarefas Atuais:**
-  1. Monitorar estabilidade pós-recuperação
-  2. Verificar serviços OpenClaw Gateway
-  3. Preparar limpeza noturna de memória
-
-### 💻 EQUIPA DE DESENVOLVIMENTO (SQUAD 2):
-- **Responsável:** Projetos ativos (4 aplicações)
-- **Status:** ✅ TODOS OPERACIONAIS
-- **Projetos em Execução:**
-  1. **Obrasync** - Backend Node.js (porta padrão)
-  2. **Clipagem Dashboard** - Next.js (porta 3200)
-  3. **Cripto Trader** - Next.js (porta 3300)
-  4. **Vizumed** - Next.js (porta 3001)
-
-### 🔧 EQUIPA DE SERVIÇOS (SQUAD 3):
-- **Responsável:** Serviços Nexus (3 serviços)
-- **Status:** ⚠️ PARCIALMENTE OPERACIONAL
-- **Serviços:**
-  1. **OpenClaw Gateway** - ✅ ONLINE (PID 2132)
-  2. **WhatsApp Server** - ❌ OFFLINE (URGENTE)
-  3. **DimDim Proxy** - ❌ OFFLINE (PRIORIDADE MÉDIA)
-
-### ⏰ EQUIPA DE MONITORAMENTO (SQUAD 4):
-- **Responsável:** Cron jobs e monitoramento
-- **Status:** ✅ TODOS OPERACIONAIS
-- **Cron Jobs Ativos:**
-  1. Nexus Orchestrator (5 min) - ✅
-  2. Discord Monitor Tempo Real (10 min) - ✅
-  3. Monitoramento Carga (10 min) - ✅
-  4. Agentes Principais (5 min) - ✅
-  5. Discord Monitor Integrado (2h) - ✅
-  6. CEO Agente Diário (9:00) - ✅
-
-### 📊 EQUIPA DE ANÁLISE (SQUAD 5):
-- **Responsável:** Análise de dados e relatórios
-- **Status:** ✅ OPERACIONAL
-- **Tarefas Atuais:**
-  1. Gerar relatórios de status
-  2. Analisar métricas de performance
-  3. Documentar aprendizado da crise
-
-## 🎯 TAREFAS PRIORITÁRIAS
-
-### 🔴 PRIORIDADE ALTA (URGENTE - PRÓXIMAS 30 MIN):
-1. **Restaurar WhatsApp Server**
-   - Responsável: Squad 3 (Serviços)
-   - Prazo: 19:30 BRT
-   - Ação: Verificar status e reiniciar serviço
-   - Dependência: Intervenção manual possivelmente necessária
-
-### 🟡 PRIORIDADE MÉDIA (PRÓXIMAS 2 HORAS):
-1. **Verificar DimDim Proxy**
-   - Responsável: Squad 3 (Serviços)
-   - Prazo: 20:30 BRT
-   - Ação: Diagnosticar causa do offline e restaurar
-
-2. **Monitorar Memória Comprimida**
-   - Responsável: Squad 1 (Infraestrutura)
-   - Prazo: Contínuo
-   - Ação: Vigilância sobre uso de memória
-
-### 🟢 PRIORIDADE BAIXA (HOJE À NOITE):
-1. **Planejar Limpeza Noturna**
-   - Responsável: Squad 1 (Infraestrutura)
-   - Prazo: 22:00 BRT
-   - Ação: Desenvolver script para liberar memória ociosa
-
-2. **Verificar Backups Automáticos**
-   - Responsável: Squad 1 (Infraestrutura)
-   - Prazo: 23:00 BRT
-   - Ação: Confirmar execução de backups
-
-## 📊 MÉTRICAS DE DESEMPENHO
-
-### 🎯 LIMITES DE REFERÊNCIA:
-- **CPU Idle:** > 80% (✅ ATUAL: 84.15%)
-- **Carga do Sistema:** < 4.0 (✅ ATUAL: 1.59/1.79/1.82)
-- **Memória Livre:** > 100 MB (✅ ATUAL: 151 MB)
-- **Processos Running:** < 5 (✅ ATUAL: 2)
-- **Projetos Ativos:** 4/4 (✅ ATUAL: 4/4)
-- **Serviços Nexus:** 3/3 (⚠️ ATUAL: 1/3)
-
-### 📈 EVOLUÇÃO DAS MÉTRICAS (17:47 → 18:54):
-| Métrica | 17:47 | 18:54 | Variação | Status |
-|---------|-------|-------|----------|--------|
-| Carga 1 min | 1.34 | 1.59 | +0.25 | ✅ |
-| Carga 5 min | 1.53 | 1.79 | +0.26 | ✅ |
-| Carga 15 min | 2.35 | 1.82 | -0.53 | ✅ |
-| CPU Idle | 85.71% | 84.15% | -1.56% | ✅ |
-| Memória Livre | 72 MB | 151 MB | +79 MB | ✅ |
-| Processos Running | 2 | 2 | 0 | ✅ |
-
-## 🔍 ANÁLISE DE RISCOS
-
-### 🔴 RISCOS CRÍTICOS (NENHUM ATUAL):
-- **Swapping:** ❌ NÃO APLICÁVEL (memória suficiente)
-- **Carga Extrema:** ❌ NÃO APLICÁVEL (carga normalizada)
-- **CPU Saturado:** ❌ NÃO APLICÁVEL (84.15% idle)
-
-### 🟡 RISCOS MODERADOS:
-1. **Serviços Offline** (Probabilidade: ALTA, Impacto: MÉDIO)
-   - WhatsApp Server e DimDim Proxy não operacionais
-   - Mitigação: Restauração prioritária
-
-2. **Memória Comprimida Alta** (Probabilidade: BAIXA, Impacto: MÉDIO)
-   - 5146 MB de memória comprimida
-   - Mitigação: Monitoramento contínuo
-
-### 🟢 RISCOS BAIXOS:
-1. **Consumo Chrome** (Probabilidade: BAIXA, Impacto: BAIXO)
-   - ~1.2 GB de memória consumida
-   - Mitigação: Fechar abas não usadas se necessário
-
-## 📋 CHECKLIST DE AÇÕES
-
-### ✅ AÇÕES CONCLUÍDAS (HOJE):
-- [x] Resolução da crise de carga extrema (16:44)
-- [x] Monitoramento pós-crise (17:00-18:00)
-- [x] Geração de relatórios de status
-- [x] Verificação de projetos ativos
-- [x] Análise de consumo de recursos
-
-### 🔄 AÇÕES EM ANDAMENTO:
-- [ ] Restauração do WhatsApp Server (Squad 3)
-- [ ] Monitoramento de estabilidade (Squad 4)
-- [ ] Análise de métricas (Squad 5)
-
-### ⏳ AÇÕES PENDENTES:
-- [ ] Verificação do DimDim Proxy (Squad 3 - 20:30)
-- [ ] Planejamento de limpeza noturna (Squad 1 - 22:00)
-- [ ] Verificação de backups (Squad 1 - 23:00)
-
-## 💡 RECOMENDAÇÕES OPERACIONAIS
-
-### 🚨 PARA SQUAD 3 (SERVIÇOS):
-1. **WhatsApp Server é PRIORIDADE ABSOLUTA**
-2. Iniciar diagnóstico imediatamente
-3. Se não restaurar automaticamente, notificar para intervenção manual
-4. Documentar causa raiz do problema
-
-### 📈 PARA SQUAD 4 (MONITORAMENTO):
-1. Manter vigilância sobre carga do sistema
-2. Alertar imediatamente se carga > 3.0
-3. Monitorar memória livre (alerta se < 80 MB)
-4. Verificar execução de todos os cron jobs
-
-### 🏗️ PARA SQUAD 1 (INFRAESTRUTURA):
-1. Preparar script de limpeza noturna
-2. Verificar espaço em disco disponível
-3. Planejar manutenção preventiva para amanhã
-
-## 📞 COMUNICAÇÃO
-
-### 🔄 CANAIS DE COMUNICAÇÃO:
-1. **Status Reports:** Arquivos STATUS_NEXUS_HEARTBEAT_*.md
-2. **Coordenação:** Arquivos COORDENACAO_EQUIPAS_NEXUS_*.md
-3. **Logs:** Diretório memory/ (arquivos diários)
-4. **Alertas:** Arquivos ALERTA_*.md
-
-### 📅 PRÓXIMOS CHECKPOINTS:
-1. **19:00 BRT:** Verificação rápida de estabilidade
-2. **19:30 BRT:** Status da restauração do WhatsApp Server
-3. **20:00 BRT:** Verificação geral do sistema
-4. **20:30 BRT:** Status do DimDim Proxy
-
-## 🎯 CONCLUSÃO E PRÓXIMOS PASSOS
-
-### ✅ SITUAÇÃO ATUAL POSITIVA:
-- Sistema estável após recuperação completa
-- Métricas todas dentro dos limites
-- Projetos ativos operacionais
-- Cron jobs funcionando
-
-### ⚠️ PONTOS DE ATENÇÃO IMEDIATOS:
-1. **WhatsApp Server OFFLINE** - ação URGENTE necessária
-2. **DimDim Proxy OFFLINE** - verificação necessária
-3. **Memória sob pressão** - monitoramento contínuo
-
-### 🎯 PRÓXIMAS AÇÕES (ORDEM DE PRIORIDADE):
-1. **🔴 RESTAURAR WHATSAPP SERVER** (Squad 3 - URGENTE)
-2. **🟡 VERIFICAR DIMDIM PROXY** (Squad 3 - 20:30)
-3. **🟢 MONITORAR ESTABILIDADE** (Squad 4 - contínuo)
-4. **🟢 PLANEJAR LIMPEZA NOTURNA** (Squad 1 - 22:00)
-
-### 📊 INDICADORES-CHAVE PARA MONITORAR:
-- **CPU Idle:** Manter > 80%
-- **Memória Livre:** Manter > 100 MB
-- **Carga do Sistema:** Manter < 3.0
-- **Serviços Online:** Alcançar 3/3
+# COORDENAÇÃO DE EQUIPAS NEXUS - STATUS 18:54
+**Data/Hora:** 26/03/2026 - 18:54 (America/Sao_Paulo)
+**Sistema:** Nexus Orchestrator - Monitoramento Intensivo
+**Tipo:** Coordenação de Equipas Virtuais - CRISE CRÍTICA
 
 ---
-*Coordenação gerada pelo Nexus Orchestrator*  
-*Data/Hora: 2026-03-22 18:54 BRT*  
-*Situação: 🟢 SISTEMA ESTÁVEL, SERVIÇOS PARCIALMENTE OFFLINE*  
-*Equipas: 5/5 OPERACIONAIS*  
-*Próximo checkpoint: 19:00 BRT*  
-*Ação Prioritária: Restaurar WhatsApp Server*  
-*Responsável: Squad 3 (Serviços)*  
-*Prazo: 19:30 BRT*  
-*Comunicação: Status reports a cada 30-60 minutos*
+
+## 🎯 STATUS DAS EQUIPAS VIRTUAIS
+
+### **EQUIPA INFRAESTRUTURA (InfraOps)**
+**Status:** 🔴 **EM CRISE - INTERVENÇÃO URGENTE REQUERIDA**
+**Líder:** Sistema Automatizado
+**Membros:** Processos de contenção + intervenção crítica
+
+**CRISES IDENTIFICADAS:**
+1. 🔴 **Next-server v15.1.6:** PID 47872, 98.8% CPU - PRIORIDADE MÁXIMA
+2. 🔴 **Load Avg Crítico:** 7.47 (1min) - SISTEMA SOBRECARREGADO
+3. 🔴 **Memória Crítica:** 56MB livres - PRESSÃO EXTREMA
+4. ⚠️ **WindowServer:** 49.5% CPU - CONSUMO ELEVADO DO SISTEMA
+
+**AÇÕES IMEDIATAS ORDENADAS:**
+1. ⚡ **MATAR Next-server v15.1.6 (PID 47872)** - COMANDO PRIORITÁRIO
+2. ⚡ **LIBERAR MEMÓRIA** - Fechar processos não essenciais
+3. ⚡ **MONITORAR IMPACTO** - Verificar redução Load Avg
+4. ⚡ **DOCUMENTAR AÇÃO** - Registrar intervenção
+
+**RECURSOS ATUAIS:**
+- CPU Idle: 72.31% (moderado, mas com processo crítico)
+- Memória Livre: 56MB (CRÍTICO)
+- Espaço Disco: Adequado (não é problema)
+- Load Avg: 7.47 (CRÍTICO - prioridade máxima)
+
+**PRÓXIMAS AÇÕES:**
+1. Executar kill -9 47872 (Next-server crítico)
+2. Monitorar redução imediata do Load Avg
+3. Avaliar necessidade de matar processos Chrome
+4. Documentar eficácia da intervenção
+
+---
+
+### **EQUIPA MONITORAMENTO (MonitorOps)**
+**Status:** 🔴 **ALERTA MÁXIMO - MÚLTIPLAS CONDIÇÕES CRÍTICAS**
+**Líder:** Sistema de Alertas Automatizado
+**Membros:** 5 condições de alerta críticas ativas
+
+**ALERTAS CRÍTICOS ATIVOS:**
+1. 🔴 **Load Avg > 5.0:** ATUAL 7.47 (Vermelho - Crítico)
+2. 🔴 **Memória Livre < 100MB:** ATUAL 56MB (Vermelho - Crítico)
+3. 🔴 **Processo > 80% CPU:** Next-server 98.8% (Vermelho - Crítico)
+4. 🟠 **Compressor Memory > 5GB:** ATUAL 7.3GB (Laranja - Alto)
+5. 🟠 **WindowServer 49.5% CPU:** (Laranja - Elevado)
+
+**MONITORAMENTO DE CRISE:**
+- ✅ Next-server identificado como causa raiz
+- ✅ Memória crítica detectada proativamente
+- ✅ Load Avg monitorado em tempo real
+- 🔄 Aguardando intervenção InfraOps
+
+**PRÓXIMAS AÇÕES:**
+1. Monitorar impacto após kill do Next-server
+2. Verificar redução Load Avg (meta: < 4.0)
+3. Acompanhar liberação de memória
+4. Atualizar alertas conforme evolução
+
+---
+
+### **EQUIPA DESENVOLVIMENTO (DevOps)**
+**Status:** 🔴 **PROCESSO CRÍTICO IDENTIFICADO - NEXT-SERVER 98.8% CPU**
+**Líder:** Processos Next.js (problema identificado)
+**Membros:** 9 instâncias Next.js ativas (1 crítica)
+
+**ANÁLISE DO PROCESSO CRÍTICO:**
+- **PID 47872:** Next-server v15.1.6 - 98.8% CPU, 232MB RAM
+- **Runtime:** 0:18 horas (iniciado 18:10)
+- **Status:** 🔴 **CONSUMO MÁXIMO CPU - CAUSA RAIZ DA CRISE**
+- **Impacto:** Principal contribuinte para Load Avg 7.47
+
+**OUTRAS INSTÂNCIAS NEXT.JS:**
+1. **v16.1.6:** 3 instâncias (~1.1% CPU total) - Baixo consumo
+2. **v14.2.35:** 3 instâncias (~0.3% CPU total) - Baixo consumo  
+3. **v15.1.6 (crítico):** 1 instância (98.8% CPU) - Processo problemático
+4. **Next dev:** 1 instância (0.0% CPU) - Inativo
+
+**ANÁLISE:**
+- **Consumo Total Next.js:** ~100% CPU (47872 sozinho), ~1.5GB RAM
+- **Problema Isolado:** Apenas v15.1.6 está problemático
+- **Versões Estáveis:** v14 e v16 operando normalmente
+- **Recomendação:** Matar apenas processo problemático, preservar outros
+
+**PRÓXIMAS AÇÕES:**
+1. Autorizar kill do processo v15.1.6 problemático
+2. Investigar causa do consumo excessivo (loop? bug?)
+3. Considerar rollback para v16 se problema persistir
+4. Documentar incidente para aprendizado
+
+---
+
+### **EQUIPA OPERAÇÕES (SysOps)**
+**Status:** 🟡 **SERVIÇOS OPERACIONAIS SOB ESTRESSE CRÍTICO**
+**Líder:** OpenClaw Gateway (sob pressão)
+**Membros:** Serviços críticos do Nexus em operação
+
+**SERVIÇOS OPERACIONAIS:**
+1. ✅ **OpenClaw Gateway:** Online (26.6% CPU, 452MB RAM) - Sob pressão
+2. ✅ **Nexus Orchestrator:** Ativo (job cron executando) - Funcionando
+3. ✅ **Scripts Contenção:** Mediaanalysisd controlado - Estável
+4. ✅ **Fileproviderd:** Monitorado (~2.1% CPU) - Controlado
+5. ✅ **Projetos Nexus:** 100% acessíveis - Excelente
+
+**IMPACTO DA CRISE NOS SERVIÇOS:**
+- **OpenClaw Gateway:** Consumo aumentou (22.5% → 26.6% CPU)
+- **Responsividade:** Possivelmente afetada pelo Load Avg alto
+- **Estabilidade:** Em risco se crise persistir
+- **Capacidade Resposta:** Mantida, mas sob estresse
+
+**PRÓXIMAS AÇÕES:**
+1. Manter OpenClaw Gateway operacional durante crise
+2. Monitorar impacto nos serviços Nexus
+3. Preparar rollback se serviços afetados
+4. Documentar resiliência do sistema sob crise
+
+---
+
+## 📊 ANÁLISE DE PERFORMANCE INTEGRADA
+
+### **SITUAÇÃO ATUAL:**
+- **Status Geral:** 🔴 EM CRISE CRÍTICA (Load Avg 7.47, Memória 56MB)
+- **Causa Raiz:** Next-server v15.1.6 (PID 47872) 98.8% CPU
+- **Tendência:** ⬆️ Degradação rápida (desde 19:29)
+- **Estabilidade:** 🔴 Crítica - Intervenção urgente requerida
+
+### **MÉTRICAS CRÍTICAS:**
+1. **Load Avg:** 7.47 (CRÍTICO) - Prioridade #1
+2. **Memória Livre:** 56MB (CRÍTICO) - Prioridade #2
+3. **CPU Crítico:** Next-server 98.8% (CAUSA RAIZ) - Ação imediata
+4. **Processos Controlados:** 1/1 (mediaanalysisd estável)
+
+### **IMPACTO NAS OPERAÇÕES:**
+- ✅ **Projetos:** 100% acessíveis (preservados)
+- ⚠️ **Desenvolvimento:** Next-server problemático afetando sistema
+- ✅ **Monitoramento:** Efetivo (detectou crise rapidamente)
+- 🔴 **Performance:** Crítica (Load Avg 7.47)
+- 🔴 **Experiência Usuário:** Severamente afetada
+
+---
+
+## 🚨 PLANO DE COORDENAÇÃO INTEGRADO - CRISE
+
+### **FASE 1: INTERVENÇÃO IMEDIATA (0-5 MINUTOS)**
+**InfraOps (Liderança):**
+1. ⚡ Executar `kill -9 47872` (Next-server crítico)
+2. ⚡ Monitorar redução Load Avg em tempo real
+3. ⚡ Verificar liberação de memória
+
+**MonitorOps (Suporte):**
+1. Confirmar kill do processo
+2. Monitorar métricas pós-intervenção
+3. Atualizar alertas conforme evolução
+
+**DevOps (Análise):**
+1. Autorizar kill do processo problemático
+2. Preparar análise causa raiz
+3. Documentar para prevenção futura
+
+**SysOps (Estabilidade):**
+1. Manter OpenClaw Gateway operacional
+2. Monitorar serviços durante intervenção
+3. Preparar contingência se necessário
+
+### **FASE 2: ESTABILIZAÇÃO (5-30 MINUTOS)**
+**Todas Equipas:**
+1. Verificar Load Avg reduzido para < 4.0
+2. Confirmar memória livre > 200MB
+3. Documentar eficácia intervenção
+4. Analisar logs para causa do problema
+
+### **FASE 3: PREVENÇÃO (1-24 HORAS)**
+**Coordenação:**
+1. Implementar limites CPU para processos dev
+2. Criar alertas proativos para consumo > 80% CPU
+3. Desenvolver playbook para crises similares
+4. Revisar configuração Next.js problemática
+
+---
+
+## 📈 MÉTRICAS DE EFICÁCIA DA COORDENAÇÃO
+
+### **EFICIÊNCIA OPERACIONAL:**
+- **Tempo Detecção:** < 1 minuto (heartbeat ativo) 🟢
+- **Diagnóstico Preciso:** Next-server identificado como causa 🟢
+- **Priorização Correta:** Load Avg + Memória como críticos 🟢
+- **Comunicação Clara:** Via arquivos de status 🟢
+
+### **EFICÁCIA TÉCNICA:**
+- **Problema Identificado:** 1/1 (Next-server crítico) 🟢
+- **Solução Definida:** Kill processo (ação clara) 🟢
+- **Recursos Preservados:** 100% projetos 🟢
+- **Serviços Mantidos:** OpenClaw operacional 🟡
+
+### **RESILIÊNCIA DO SISTEMA:**
+- **Capacidade Diagnóstico:** Alta (identificação precisa) 🟢
+- **Tolerância a Falhas:** Testada em crise extrema 🔴
+- **Recuperação:** Em andamento (plano definido) 🟡
+- **Aprendizado Contínuo:** Ativo (incidente documentado) 🟢
+
+---
+
+## 🎯 PRÓXIMOS PASSOS COORDENADOS
+
+### **PRIORIDADE 1 (CRÍTICA - IMEDIATA - INFRAOPS):**
+1. ⚡ **Executar kill -9 47872** (Next-server v15.1.6)
+2. ⚡ **Monitorar Load Avg** (meta: redução para < 5.0 em 2min)
+3. ⚡ **Verificar Memória** (meta: > 200MB em 5min)
+4. ⚡ **Documentar Resultado** (eficácia intervenção)
+
+### **PRIORIDADE 2 (ALTA - 30 MIN - MONITOROPS + DEVOPS):**
+1. **Analisar Causa Next-server** (logs, configuração)
+2. **Implementar Alertas** para CPU > 80%
+3. **Revisar Configuração** Next.js v15.1.6
+4. **Documentar Lições** para prevenção
+
+### **PRIORIDADE 3 (MÉDIA - 2 HORAS - SYSOPS):**
+1. **Monitorar Estabilidade** OpenClaw Gateway
+2. **Verificar Serviços** Nexus pós-crise
+3. **Otimizar Recursos** para prevenir recorrência
+4. **Atualizar Playbooks** resposta a crises
+
+### **PRIORIDADE 4 (BAIXA - 24 HORAS - TODAS):**
+1. **Revisar Estrutura Monitoramento** (melhorias)
+2. **Otimizar Comunicação** entre equipes
+3. **Planejar Capacitação** (playbooks, treinamento)
+4. **Organizar Documentação** incidente
+
+---
+
+## ✅ STATUS FINAL DA COORDENAÇÃO
+
+### **AVALIAÇÃO GERAL: 🔴 COORDENAÇÃO DE CRISE ATIVA**
+
+**PONTOS FORTES:**
+1. ✅ Detecção rápida de crise crítica
+2. ✅ Diagnóstico preciso (Next-server identificado)
+3. ✅ Plano de ação claro e prioritizado
+4. ✅ Comunicação eficiente via arquivos
+
+**ÁREAS DE AÇÃO IMEDIATA:**
+1. 🔴 Executar kill do Next-server problemático
+2. 🔴 Monitorar redução Load Avg
+3. 🔴 Liberar memória crítica
+4. 🔴 Documentar intervenção
+
+**PRÓXIMA VERIFICAÇÃO:** 19:00 (6 minutos) - PÓS-INTERVENÇÃO
+**EQUIPAS ATIVAS:** 4/4 (InfraOps liderando crise)
+**SITUAÇÃO:** Crítica, intervenção definida, execução pendente
+
+---
+**Gerado por:** Nexus Orchestrator - Sistema de Coordenação de Crise  
+**Próxima Coordenação:** 19:00 (pós-intervenção)  
+**Status:** 🔴 CRISE CRÍTICA - INTERVENÇÃO URGENTE DEFINIDA
